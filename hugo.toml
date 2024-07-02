@@ -1,4 +1,13 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://moloxiao.github.io/blog/'
 languageCode = 'en-us'
-title = 'Shan Blog'
+title = "shan's blog"
+author = "Shan"
 theme = "hugo-blog-awesome"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/moloxiao"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://x.com/shanxiao_sx"

@@ -11,5 +11,16 @@ theme = "PaperMod"
     url = "/privacy-policy/"
     weight = 10
 
+[params.homeInfoParams]
+    Title = "Welcome to Shan's Blog"
+    Content = "Welcome to my blog. I'm Shan Xiao, a programmer. Here, I write about technology, programming, open source, and anything else that comes to mind. Let's learn and grow together."
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/moloxiao"
+    [[params.socialIcons]]
+        name = "twitter"
+        url = "https://x.com/shanxiao_sx"
+
+
 [params]
   google_analytics = "G-NXF2YQT8WF"

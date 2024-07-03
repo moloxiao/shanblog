@@ -1,5 +1,15 @@
-baseURL = 'https://moloxiao.github.io/blog/'
+baseURL = 'https://moloxiao.github.io/'
 languageCode = 'en-us'
 title = "shan's blog"
 author = "Shan"
 theme = "PaperMod"
+
+[menu]
+  [[menu.main]]
+    identifier = "privacy-policy"
+    name = "Privacy Policy"
+    url = "/privacy-policy/"
+    weight = 10
+
+[params]
+  google_analytics = "G-NXF2YQT8WF"

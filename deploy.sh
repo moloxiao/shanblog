@@ -12,7 +12,7 @@ git add .
 git commit -m "Deploying to GitHub Pages"
 
 # 推送到GitHub Pages仓库
-git remote add origin https://github.com/moloxiao/blog.git
+git remote add origin https://github.com/moloxiao/moloxiao.github.io.git
 git branch -M gh-pages
 git push -u origin gh-pages --force
 

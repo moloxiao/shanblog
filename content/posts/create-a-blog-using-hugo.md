@@ -56,3 +56,20 @@ Open baseof.html for editing :
 </head>
 ...
 ```
+
+## Configure Hugo to Generate a Sitemap
+Hugo has built-in support for generating XML sitemaps. You just need to enable it in your configuration file.
+Open your Hugo project’s configuration file config.toml(or config.yaml). Add or update the following configuration to enable the sitemap :  
+```
+[outputs]
+  home = ["HTML", "RSS", "SITEMAP"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+```
+vist check :
+```
+http://127.0.0.1:1313/sitemap.xml
+```

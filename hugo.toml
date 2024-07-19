@@ -24,3 +24,11 @@ theme = "PaperMod"
 
 [params]
   google_analytics = "G-NXF2YQT8WF"
+
+[outputs]
+  home = ["HTML", "RSS", "SITEMAP"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

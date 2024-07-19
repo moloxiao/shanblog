@@ -2,6 +2,7 @@
 title = 'Create a blog using Hugo'
 date = 2024-07-02T20:57:29+12:00
 draft = false
+tags = ["Website Building", "Google Adsense", "Google Analytics", "Hugo"]
 +++
 Just like you see, this blog you are visiting is created using Hugo and hosted on GitHub Pages. In the process of using Hugo, I researched a lot to answer my questions. Here are some common issues.
 

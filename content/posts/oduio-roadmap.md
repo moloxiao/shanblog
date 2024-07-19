@@ -2,10 +2,13 @@
 title = 'Oduio Roadmap'
 date = 2024-07-03T14:37:16+12:00
 draft = false
+tags = ["Roadmap", "SaaS"]
 +++
 **last updated on : 2024-07-03**  
 This page displays basic information about the Oduio app,   
-  
+
+![oduio](/images/2024070401_oduio.webp)
+
 **Oduio** means: oh, yes, oh. 'o' stands for 'oh,' 'dui' means 'yes' in Chinese pinyin, and 'o' stands for 'oh.'  
 It is used to express the feeling of a sudden realization. In chinese we say : '恍然大悟'.
 

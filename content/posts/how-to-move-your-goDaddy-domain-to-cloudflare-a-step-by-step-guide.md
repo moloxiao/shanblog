@@ -63,7 +63,7 @@ If you have a domain registered with GoDaddy and want to move it to Cloudflare, 
 ![find the “Nameservers”](/images/godaddy-to-cloudflare-10.png)  
 
 ## Step 5: Wait for DNS Propagation
-The changes to the nameservers may take 24-48 hours to propagate across the internet.  
+The changes to the nameservers may take 24-48 hours to propagate across the internet.  **I only waited for 10 minutes.**
 ![find the “Nameservers”](/images/godaddy-to-cloudflare-11.png)  
 
 ## Conclusion

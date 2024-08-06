@@ -8,3 +8,4 @@ draft = true
 [ ]How to seperate a good player with avage player
 [ ]Snowflake - 原理介绍
 [ ]技术栈总结
+[ ]合理的报错信息

@@ -2,7 +2,7 @@
 title = 'How to Move Your GoDaddy Domain to Cloudflare a Step by Step Guide'
 date = 2024-08-06T20:00:29+12:00
 draft = false
-tags = ["GoDaddy", "Cloudflare", "Domain"]
+tags = ["GoDaddy", "Cloudflare", "Domain", "conerstonechurch.org"]
 +++
 Managing your domain through Cloudflare offers numerous benefits, including enhanced security, improved website performance, and easy DNS management. **These are not the most important factors. The main reason is that you might need my help with day-to-day management, and personally, I prefer Cloudflare.**
 

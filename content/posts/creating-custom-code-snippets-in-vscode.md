@@ -2,6 +2,7 @@
 title = 'Creating Custom Code Snippets in Vscode'
 date = 2024-07-23T11:49:42+12:00
 draft = false
+tags = ["Vscode"]
 +++
 
 VSCode provides a powerful snippet feature that helps developers boost their coding efficiency and consistency. This blog will guide you through creating custom code snippets in VSCode, specifically for TypeScript and React projects.   

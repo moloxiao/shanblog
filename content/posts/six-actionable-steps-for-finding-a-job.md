@@ -19,6 +19,9 @@ You should be ready for an interview within a week's notice. If you're not there
 Assuming total time is limited, there are two time allocation models: 
 1. Fixed job searching time with flexible preparation time, with the total time remaining fixed;   
 2. Fixed preparation time with flexible job searching time, with the total time remaining fixed.  
+
+Tips : 
+1. **Complete the task within the allocated time**. Some tasks could potentially take an unlimited amount of time, but our time resources are limited. By setting a time limit, we focus on getting the job done rather than striving for perfection.
   
 
 ## 4. if one method of job searching isn't working, you need to switch it up  

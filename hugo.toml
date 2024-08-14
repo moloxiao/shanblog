@@ -10,6 +10,11 @@ theme = "PaperMod"
     name = "Privacy Policy"
     url = "/privacy-policy/"
     weight = 10
+  [[menu.main]]
+    identifier = "books"
+    name = "Books"
+    url = "/books/"
+    weight = 2
 
 [params.homeInfoParams]
     Title = "Welcome to Shan's Blog"

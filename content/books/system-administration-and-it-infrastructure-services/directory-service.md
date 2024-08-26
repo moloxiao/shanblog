@@ -73,4 +73,11 @@ Security and Best Practices :
 * Daily Operations: Avoid using domain admin accounts for routine tasks. Delegate specific permissions for regular administrative duties to maintain security and prevent accidental system-wide changes.
 
 # OpenLDAP
+OpenLDAP, a free and open-source alternative to Microsoft's Active Directory.  
 
+* For more information about installing and configuring OpenLDAP and phpLDAPAdmin on Ubuntu 16.04, click [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-openldap-and-phpldapadmin-on-ubuntu-16-04)
+* or check out this article on [openldap.org](https://www.openldap.org/doc/admin24/slapdconf2.html)
+* For information about the data interchange format, click [here](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format).  
+* For information about how to use LDIF files to make changes to an OpenLDAP system, click [here](https://www.digitalocean.com/community/tutorials/how-to-use-ldif-files-to-make-changes-to-an-openldap-system)
+
+Data Recovery and Backups

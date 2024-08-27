@@ -10,10 +10,10 @@ Just do it, let it fail if necessary, and then find a new way to fix it.
 
 
 # What is a system  
-```
-The goal of all science, is to substitute visible complexity for invisible simplicity.  
-- John Baptiste Perrin
-```  
+
+>The goal of all science, is to substitute visible complexity for invisible simplicity.  
+>- John Baptiste Perrin
+  
 
 a system contains 5 part :  
 1. **GOAL** : What impact or income by when ?  

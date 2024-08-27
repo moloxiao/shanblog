@@ -7,7 +7,9 @@ draft = true
 
 [ ] 1% Reflecting on My Consulting Experience in 2024
 [ ] 30% Exploring New Zealand's Industry : Mussel Farming
-
+[ ] 0% Data Jobs in 2024
+[ ] 1% Study Plan With Kids for Games
+[ ] 0% How to Prepare for a Data Analysis Job Interview
 
 [ ] 0% Hello-snowflake(Snowflake - 原理介绍)
 [ ]技术栈总结

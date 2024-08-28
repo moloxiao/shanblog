@@ -26,10 +26,6 @@ theme = "PaperMod"
         name = "twitter"
         url = "https://x.com/shanxiao_sx"
 
-
-[params]
-  google_analytics = "G-NXF2YQT8WF"
-
 [outputs]
   home = ["HTML", "RSS", "SITEMAP"]
 

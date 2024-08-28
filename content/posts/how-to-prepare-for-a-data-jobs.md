@@ -2,6 +2,7 @@
 title = 'How to Prepare for a Data Jobs'
 date = 2024-08-28T20:45:47+12:00
 draft = false
+tags = ["Data", "Job"]
 +++
 ![Add Your Domain to Cloudflare](/images/2024-08/data-engineer-resume.webp) 
 

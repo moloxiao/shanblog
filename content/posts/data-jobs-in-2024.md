@@ -2,6 +2,7 @@
 title = 'Data Jobs in 2024'
 date = 2024-08-27T11:43:19+12:00
 draft = false
+tags = ["Data", "Job"]
 +++
 
 

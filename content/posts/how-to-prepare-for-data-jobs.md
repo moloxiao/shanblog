@@ -1,5 +1,5 @@
 +++
-title = 'How to Prepare for a Data Jobs'
+title = 'How to Prepare for Data Jobs'
 date = 2024-08-28T20:45:47+12:00
 draft = false
 tags = ["Data", "Job"]

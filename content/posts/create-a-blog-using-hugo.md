@@ -2,7 +2,7 @@
 title = 'Create a blog using Hugo'
 date = 2024-07-02T20:57:29+12:00
 draft = false
-tags = ["Website Building", "Google Adsense", "Google Analytics", "Hugo"]
+tags = ["Website Building", "Google Adsense", "Google Analytics", "Hugo", "SEO"]
 +++
 Just like you see, this blog you are visiting is created using Hugo and hosted on GitHub Pages. In the process of using Hugo, I researched a lot to answer my questions. Here are some common issues.
 
@@ -65,7 +65,7 @@ Open your Hugo project’s configuration file config.toml(or config.yaml). Add o
   home = ["HTML", "RSS", "SITEMAP"]
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 ```
@@ -73,3 +73,7 @@ vist check :
 ```
 http://127.0.0.1:1313/sitemap.xml
 ```
+
+To optimize your Hugo-based blog for SEO using Google Search Console and Bing Webmaster Tools :  
+* [Google Search Console](https://search.google.com/search-console)
+* [Bing Webmaster Tools](https://www.bing.com/webmasters/)

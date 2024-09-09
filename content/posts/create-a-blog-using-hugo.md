@@ -77,3 +77,13 @@ http://127.0.0.1:1313/sitemap.xml
 To optimize your Hugo-based blog for SEO using Google Search Console and Bing Webmaster Tools :  
 * [Google Search Console](https://search.google.com/search-console)
 * [Bing Webmaster Tools](https://www.bing.com/webmasters/)
+
+
+# Changelog
+
+* 2024-09-09 resubmit Google AdSense  
+* 2024-09-09 add Bing Webmaster Tools 
+* 2024-07-04 submit Google AdSense, **reject**
+* 2024-07-02 add google search console
+* 2024-07-02 add google analytics
+* 2024-07-01 create blog

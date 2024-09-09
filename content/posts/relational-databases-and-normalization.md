@@ -17,7 +17,7 @@ We have a system that tracks students registering for courses at a technical ins
 Suppose we have a table where each student can register for multiple courses, but the course information and instructor names are stored in a single field:  
 |Student ID	|Student Name|	Courses	|Instructors|
 |-|--|--|--|
-|1	|John Smith	Mathematics, |Physics|	Dr. Brown, Dr. Green|
+|1	|John Smith	 |Mathematics, Physics|	Dr. Brown, Dr. Green|
 |2	|Emily Davis	|Mathematics|	Dr. Brown|
 |3	|Michael Lee	|Chemistry|	Dr. White|
 |4	|Sarah Wilson	|Mathematics, Chemistry|	Dr. Brown, Dr. White|

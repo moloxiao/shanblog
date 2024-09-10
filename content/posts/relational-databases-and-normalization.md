@@ -3,6 +3,7 @@ title = 'Relational Databases and Normalization'
 date = 2024-09-09T15:01:22+12:00
 draft = false
 tags = ["Database", "SQL"]
+description = "Normalization forms the foundation of relational databases. In this article, we walk through an example, applying 1NF, 2NF, and 3NF step by step, illustrating how normalization guides the design of a well-structured relational table."
 +++
 ![landing page](/images/2024-09/edgar-f-codd.png)  
 Two-dimensional data is the most commonly used form of information representation by humans. In 1970, **Edgar F. Codd** first introduced how to efficiently use two-dimensional data to represent transactions, laying the foundation for modern databases.  

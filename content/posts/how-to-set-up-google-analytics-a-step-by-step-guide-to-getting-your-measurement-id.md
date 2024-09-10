@@ -2,7 +2,7 @@
 title = 'How to Set Up Google Analytics a Step by Step Guide to Getting Your Measurement Id'
 date = 2024-08-07T15:29:03+12:00
 draft = false
-tags = ["GoDaddy", "Cloudflare", "Domain", "conerstonechurch.org"]
+tags = ["GoDaddy", "Cloudflare", "Domain", "cornerstonecongregational.org"]
 +++
 We use Google Analytics to track the number of visitors to our website, including information about when they visit and how they interact with our site. This helps us understand our audience better and improve our online presence.  
 when you have a website and want your software engineer to support it with Google Analytics, You need to do two things:

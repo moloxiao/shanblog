@@ -3,6 +3,7 @@ title = 'Minified React Error #130'
 date = 2024-07-19T15:57:51+12:00
 draft = false
 tags = ["React", "Cloudflare", "Vite"]
+description = "how to fix Minified React error #130"
 +++
 When I am unable to find an answer using ChatGPT, Gemini, claude, or Google, I believe it is necessary to document the steps I take to solve the problem.
 

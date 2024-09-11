@@ -27,8 +27,12 @@ Wait add :
 * Google Photo
 * Timeline
 
+# 2 Other Tools
+
+* [Google Analytics](https://analytics.google.com/)  
+
 
 # Changelog
 
-* 2024-09-10 create
+* 2024-09-10 init
 

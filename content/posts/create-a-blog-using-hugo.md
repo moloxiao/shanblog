@@ -3,6 +3,7 @@ title = 'Create a blog using Hugo'
 date = 2024-07-02T20:57:29+12:00
 draft = false
 tags = ["Website Building", "Google Adsense", "Google Analytics", "Hugo", "SEO"]
+description = "How I created my blog using Hugo and the tools I used."
 +++
 Just like you see, this blog you are visiting is created using Hugo and hosted on GitHub Pages. In the process of using Hugo, I researched a lot to answer my questions. Here are some common issues.
 
@@ -79,8 +80,14 @@ To optimize your Hugo-based blog for SEO using Google Search Console and Bing We
 * [Bing Webmaster Tools](https://www.bing.com/webmasters/)
 
 
+## programmable search engine
+I support blog search using Google [Programmable Search Engine, previously known as Google Custom Search](https://programmablesearchengine.google.com/).  
+
+
+
 # Changelog
 
+* 2024-09-11 add google programmable search engine
 * 2024-09-09 resubmit Google AdSense  
 * 2024-09-09 add Bing Webmaster Tools 
 * 2024-07-04 submit Google AdSense, **reject**

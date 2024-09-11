@@ -27,7 +27,7 @@ theme = "PaperMod"
         url = "https://x.com/shanxiao_sx"
 
 [outputs]
-  home = ["HTML", "RSS", "SITEMAP"]
+  home = ["HTML", "RSS", "SITEMAP", "RobotsTXT"]
 
 [sitemap]
   changefreq = "weekly"

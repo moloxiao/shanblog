@@ -21,6 +21,8 @@
     <!-- config google adsense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8639536784870126"
      crossorigin="anonymous"></script>
+     <script async src="https://cse.google.com/cse.js?cx=f2f2dcda81a0143d0">
+    </script>
      
 </head>
 
@@ -34,6 +36,7 @@
 " id="top">
     {{- partialCached "header.html" . .Page -}}
     <main class="main">
+        
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}

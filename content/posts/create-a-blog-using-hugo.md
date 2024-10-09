@@ -83,14 +83,24 @@ To optimize your Hugo-based blog for SEO using Google Search Console and Bing We
 ## programmable search engine
 I support blog search using Google [Programmable Search Engine, previously known as Google Custom Search](https://programmablesearchengine.google.com/).  
 
+## add robots.txt
+
+```
+User-agent: *
+Disallow: /tags/
+
+Sitemap: https://moloxiao.github.io/sitemap.xml
+```
 
 
 # Changelog
 
+* 2024-09-16  [Google AdSense](https://www.google.com/adsense) , **rejected**
+* 2024-09-11 add robots.txt
 * 2024-09-11 add google programmable search engine
-* 2024-09-09 resubmit Google AdSense  
+* 2024-09-09 resubmit [Google AdSense](https://www.google.com/adsense)  
 * 2024-09-09 add Bing Webmaster Tools 
-* 2024-07-04 submit Google AdSense, **reject**
+* 2024-07-04 submit [Google AdSense](https://www.google.com/adsense) , **reject**
 * 2024-07-02 add google search console
 * 2024-07-02 add google analytics
 * 2024-07-01 create blog

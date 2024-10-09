@@ -21,9 +21,9 @@ You can [click here](https://moloxiao.github.io/tags/cornerstonecongregational.o
 |[events](https://cornerstonecongregational.org/next)|Managing the display of Sunday Service and other events on the website|[link](https://docs.google.com/spreadsheets/d/15lUgUJiUdOuExspq30az6ph5tpU1tOiSgs3Km22ev4s)|sheets|
 |[pray](https://cornerstonecongregational.org/pray)|Manage the display of prayer requests on the home and prayer pages.|[link](https://docs.google.com/spreadsheets/d/1Pq64xZKJxRluh-ssXw6TjSEKwN2UKHc8WXPUWXIxCC4)|sheets|  
 
-Wait add : 
+Other tools : 
 * Google Slides
-* Google Calendar
+* [Google Calendar](https://calendar.google.com/)
 * Google Photo
 * Timeline
 

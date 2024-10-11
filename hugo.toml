@@ -18,7 +18,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
     Title = "Welcome to Shan's Blog"
-    Content = "Welcome to my blog. I'm Shan Xiao, a programmer. Here, I write about technology, programming, open source, and anything else that comes to mind. Let's learn and grow together."
+    Content = "Welcome to my blog. I'm Shan Xiao, a programmer. Here, I write about technology, programming, open source, and anything else that comes to mind. Let's learn and grow together. If you're interested, here are some of my side projects : [SSM](https://ssm.micostupid.com), [Resume Manager](https://resumemanager.pages.dev/), [Nathaniel Pomodoro](https://nathaniel-pomodoro.vercel.app/)"
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/moloxiao"

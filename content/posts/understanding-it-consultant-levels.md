@@ -5,7 +5,7 @@ draft = false
 tags = ["ICT"]
 description = "Understanding IT Consultant Levels: A Breakdown with AWS, Microsoft, and Google Certifications"
 +++
-This grading system isn't just about technical skills. An experienced software engineer might be able to reach L4 level in just a week, and a top computer science graduate could do the same.  
+This grading system isn't just about technical skills. An experienced software engineer might be able to reach L4 level in just a week, and a top computer science graduate could do the same. If our goal is to help more people achieve their objectives, this will require a diverse set of skills.  
 
 Here are the different dimensions at each level :  
 | **Level** | **Technical Skills** | **Project Management & Leadership** | **Problem Solving & Decision Making** | **Communication & Client Interaction** | **Strategic Planning & Architecture** |

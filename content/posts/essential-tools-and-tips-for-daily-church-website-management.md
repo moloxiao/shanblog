@@ -21,6 +21,28 @@ You can [click here](https://moloxiao.github.io/tags/cornerstonecongregational.o
 |[events](https://cornerstonecongregational.org/next)|Managing the display of Sunday Service and other events on the website|[link](https://docs.google.com/spreadsheets/d/15lUgUJiUdOuExspq30az6ph5tpU1tOiSgs3Km22ev4s)|sheets|
 |[pray](https://cornerstonecongregational.org/pray)|Manage the display of prayer requests on the home and prayer pages.|[link](https://docs.google.com/spreadsheets/d/1Pq64xZKJxRluh-ssXw6TjSEKwN2UKHc8WXPUWXIxCC4)|sheets|  
 
+
+## 1.1 Events
+Currently, we only support 'sundayservice', but we plan to support :  
+* Each event will have its own accessible page; 
+* a list will display all events; 
+* different event types will have distinct styles
+
+You can jump to the next service pages by clicking the '[Next Service](https://cornerstonecongregational.org/next)' button on the homepage : 
+![screenshort](/images/2024-10/screen-03.png)   
+
+This is what the next service pages look like :  
+![screenshort](/images/2024-10/screen-04.png) 
+
+This config sheet :  
+![screenshort](/images/2024-10/screen-02.png)  
+
+config rules :  
+* New Activity: Add Column (The page only reads the last entry)
+* The first column must be filled with 'sundayservice' (used to differentiate the display methods for different types of activities in the future)
+* The webpage will display the last entry marked with 'sundayservice' and where the 'state' column is set to 'public'
+
+
 Other tools : 
 * Google Slides
 * [Google Calendar](https://calendar.google.com/)

@@ -1,8 +1,11 @@
 +++
 title = "Shan's Responses to Common Interview Questions"
 date = 2024-07-24T15:36:34+12:00
-draft = true
+draft = false
+tags = ["Interview", "Job", "JobInterview"]
+description = "Shan's suggest Responses to Common Interview Questions."
 +++
+>> Failure is not about when you get rejected, failure is when you have the chance but you never tried.  
 
 # 1 General Interview Questions
 
@@ -16,7 +19,20 @@ I will share four parts of my experience related to this job: 1. my work on IoT 
 I am looking for challenging tasks, like managing charging stations. I think there are still many challenges, such as compatibility issues between different manufacturers and IoT security problems. I hope we can find a way to let machines talk to each other.
 
 ## 1.3 What are your strengths and weaknesses?
+should not :  
+* lie about your weaknesses 
+* say that you have none
+* try to turn your weaknesses into positive attributes  
 
+should :  
+* a weakness that is **a skill that you can work on**  
+
+examples : 
+* [joke]Figuring out a satisfying answer to this question.
+* you are an introvert and sometimes you are shy to share your ideas  
+* being too creative and not being able to filter your ideas  
+* I often pay too much attention to details, which sometimes goes beyond what's needed and slows me down a bit. I need to learn more from experienced coworkers.  
+* When I was a beginner, I felt a bit shy if I had to confirm instructions too many times.  
 
 ## 1.4 What are your career goals?
 I hope that in the next five years, I can find ways to make machines talk to each other on their own. But my small goal for this year is to have AI generate more than 50% of the code I use every day.
@@ -30,8 +46,12 @@ There is an issue with a query that takes over 60 seconds to execute, involving 
 
 An additional example related to distributed systems: for instance, a database setup includes 1 master node and 2 slove nodes. Some operations need to complete additional tasks immediately after writing data. If a query is made to the slove nodes right away, the data might not have synchronized yet
 
-## 1.7 about visa
-My wife is currently studying for a graduate degree, and I have a dependent work visa, which is unrestricted. My wife will graduate in July.
+## 1.7 about visa  
+examples :  
+* 3-year partner work visa expired on July 31, 2027
+
+## 1.8 Why should I even hire you with no experience in this field
+I had no experience I was a quick learner and could take coaching, what I will not bring with me is 20 years of bad habits. I can learn to do things the way you want them.
 
 # 2 Technical Interview Questions
 

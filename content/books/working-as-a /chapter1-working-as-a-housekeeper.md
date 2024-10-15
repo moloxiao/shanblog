@@ -47,12 +47,16 @@ Those that work in hotels or other commercial properties may need to clean a par
 **Physical stamina**  
 These individuals may spend significant time standing and walking as they perform their cleaning tasks, such as vacuuming or mopping floors. They may also need to bend over and squeeze into small or tight spaces.  
 
-# 2 Resume
+# 2 Resume & Cover letter
 
-## 2.1 Resume example
+## 2.1 Resume
 
+steps :  
+1. Review job postings  
+2. List your skills, qualities and experience  
+3. List relevant career goals and workplace requirements  
 
-## 2.2 Cover letter example
+## 2.2 Cover letter
 
 
 

@@ -53,6 +53,15 @@ examples :
 ## 1.8 Why should I even hire you with no experience in this field
 I had no experience I was a quick learner and could take coaching, what I will not bring with me is 20 years of bad habits. I can learn to do things the way you want them.
 
+## 1.9 Why Are You a Good Fit for this Role ? 
+
+they’re all really just trying to figure out 
+1. What can you bring to the role(What experiences or skills you have that would be applicable for the new position)
+2. What you are trying to get out of it 
+3. What makes you unique(What special characteristic you have that others do not)
+
+
+
 # 2 Technical Interview Questions
 
 ## 2.1 Explain a complex technical concept in simple terms.

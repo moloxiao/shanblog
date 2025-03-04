@@ -44,7 +44,14 @@ What we can do :
 Gather your own kaimoana for dinner! Fishing and paua collecting is allowed here.
 
 **Watch the Sunset** :  
-![Watch the Sunset ](/images/2024-11/screen-08.png) 
+![Watch the Sunset ](/images/2024-11/screen-08.png)  
+
+# 2 Thicket Burn Campsite  
+
+
+# 3 Monowai Campsite  
+
+# 4 Old South Arm Campsite
 
 # Other Reference
 * [Southland District Council Freedom camping rules & locations](https://www.southlanddc.govt.nz/services/freedom-camping/)

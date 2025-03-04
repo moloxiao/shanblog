@@ -40,6 +40,14 @@ According to difficulty, they can be categorized as:
 
 # 2 Speaking
 
+English is a "stress-timed" language, which means : 
+1. we stress certain sounds in a sentence and 
+2. we leave an equal amount of time between all of these stresses.  
+This creates a **rhythm**. examples :  
+* The **boy** and the **girl** **run** to **school**.  
+* **Zoos** are **places** where **animals** **live** in **cages**  
+* The **hills** and the **mountains** were **covered** in **flowers**
+
 |Test Item|Full Name|Skills Assessed|Number of Tasks|Time per Task|Total Time|
 |:-:|:--:|:----|:----|:-:|:-:|:-:|
 |RA|Read Aloud |Pronunciation, fluency, and intonation|7|40/s|5/m|
@@ -85,6 +93,9 @@ AI Tips :
 ## A-2 Daily Log
 |Days|Type|Times|Week Times Sum|Description|
 |:--:|:--:|:--:|:--:|:----|
+|4 Dev, 2024|Words|0.5|6|review 20 words|
+|4 Dev, 2024|RS|0.5|5.5|simple-10 sentences|
+|4 Dev, 2024|WFD|1|5|moderate-10 sentences|
 |3 Dev, 2024|Words|0.5|4|review 15 words|
 |3 Dev, 2024|RS|0.5|3.5|simple-10 sentences|
 |3 Dev, 2024|WFD|1|3|moderate-10 sentences|

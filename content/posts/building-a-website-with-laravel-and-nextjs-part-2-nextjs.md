@@ -19,5 +19,19 @@ Middleware cannot directly access databases, perform long-running tasks, or use 
 If your Next.js app requires authentication, A/B testing, or URL rewrites, Middleware can significantly improve performance by handling these tasks at the edge.
 
 
-## 
+## Security 
+
+### JWT  
+Conclusion on Security in English
+If your JWT is used exclusively for API requests, and the Next.js frontend does not directly trust user data stored on the client-side (e.g., localStorage or Cookies), then:  
+
+1. Users cannot fake authentication by modifying localStorage or Cookies since all protected actions require a valid JWT.  
+2. The backend verifies the authenticity of the JWT, ensuring that only legitimate users can access data.  
+
+However, there are still important security considerations:  
+
+* Use HttpOnly Cookies for token storage to prevent XSS attacks and ensure the token is not accessible via JavaScript.
+* Mitigate CSRF attacks by ensuring API authentication requires Authorization: Bearer <token> instead of relying on Cookies.
+* Leverage getServerSideProps for SSR authentication to fetch user data securely on the server side, improving performance and reducing unnecessary API calls on the client.
+* Implement proper token expiration and revocation mechanisms on the backend to prevent unauthorized access.
 

@@ -6,6 +6,16 @@ draft = true
 
 # Now-Blog
 
+[ ] 0% php role tools : spatie laravel permission(Laravel Backpack - backend UI)
+
+
+
+# Now-Book
+
+
+# Wait drop off
+
+
 [ ] 20% Weekly Summary Framework for Resume Submissions
 [ ] 1% Reflecting on My Consulting Experience in 2024
 [ ] 30% Exploring New Zealand's Industry : Mussel Farming
@@ -19,9 +29,6 @@ draft = true
 
 [ ] 5% Introducing the Roles in It Introducing the Roles in Software Development: Tasks and Essential Skills
 
-
-
-# Now-Book
 [ ] 2% Kids Training
 
 [ ] 0% Hello-snowflake(Snowflake - 原理介绍)

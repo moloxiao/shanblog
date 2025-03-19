@@ -21,8 +21,7 @@ If your Next.js app requires authentication, A/B testing, or URL rewrites, Middl
 
 ## Security 
 
-### JWT  
-Conclusion on Security in English
+### JWT 
 If your JWT is used exclusively for API requests, and the Next.js frontend does not directly trust user data stored on the client-side (e.g., localStorage or Cookies), then:  
 
 1. Users cannot fake authentication by modifying localStorage or Cookies since all protected actions require a valid JWT.  

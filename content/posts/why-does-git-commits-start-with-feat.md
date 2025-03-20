@@ -1,4 +1,10 @@
-# Why Does Git Commits Start with `feat:`?
++++
+title = 'Why Does Git Commits Start with `feat:`?'
+date = 2025-03-19T20:02:09+13:00
+draft = false
+tags = ["Git"]
+description = "Have you ever wondered why Git commit messages often start with feat: when using Copilot or other AI-assisted tools? This blog explores Conventional Commits, a structured approach to writing commit messages that enhances readability, automates changelog generation, and supports semantic versioning. Learn why adopting this convention can improve your workflow and how to implement it in your projects using commitizen, commitlint, and husky. 🚀"
++++
 
 Have you ever seen `feat:` at the beginning of Git commit messages when using Copilot or other AI-assisted tools? If you're wondering why developers use this format, the answer lies in **Conventional Commits**—a structured way of writing commit messages that improves project maintainability and automation.
 

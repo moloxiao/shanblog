@@ -1,7 +1,7 @@
 
 ---
 title: "Cloudflare Tunnel on Windows"
-date: 2025-03-28
+date: 2025-03-28T14:20:52+12:00
 tags: ["cloudflare", "tunnel", "windows", "localhost", "nextjs"]
 description: "A step-by-step guide to exposing your local development server to the internet using Cloudflare Tunnel on Windows."
 ---

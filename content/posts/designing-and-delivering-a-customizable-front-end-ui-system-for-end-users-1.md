@@ -15,7 +15,7 @@ We have to choice for users:
 Inspired by [AdminMart](https://adminmart.com), we explored their approach to delivering UI systems via templates — including how they structure delivery, enable user customization, and support extensibility.  
 The current analysis is based on the documentation of AdminMart and the templates provided by Material UI
 
-## 2 Theme(Styling) & Customization
+# 2 Theme(Styling) & Customization
 When you init a new project, you can choice :  
 ```
 const initialState = {
@@ -44,4 +44,7 @@ and you can customer :
 * Customize Theme
 
 
-# Development
+# 3 Development
+you need allow people make these things easy to do :  
+* create new pages
+* Multi Language

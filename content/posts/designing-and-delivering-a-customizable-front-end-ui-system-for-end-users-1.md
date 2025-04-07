@@ -46,5 +46,5 @@ and you can customer :
 
 # 3 Development
 you need allow people make these things easy to do :  
-* create new pages
+* create new pages(How to add page to sidebar)
 * Multi Language

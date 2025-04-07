@@ -48,3 +48,13 @@ and you can customer :
 you need allow people make these things easy to do :  
 * create new pages(How to add page to sidebar)
 * Multi Language
+
+By the way, According to the documentation, the sidebar file should be here: 
+```
+src/layouts/vertical/sidebar/Menuitems.ts
+```
+
+However, it is actually located here:
+```
+src/app/(DashboardLayout)/layout/vertical/sidebar/Menuitems.ts
+```

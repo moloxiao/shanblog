@@ -14,6 +14,9 @@ I will join the PTE test in 2, May, so I need a plan for prepare.
 
 |Week|Day|Type|Times|Week Times Sum|Description|
 |:--:|:--:|:--:|:--:|:--:|:----|
+|Week4|ALL|||1||
+|Week4|8 Apr, 2025|RS|0.5|1|simple sentences|
+|Week4|7 Apr, 2025|RS|0.5|0.5|simple sentences|
 |Week3|ALL|||3.5||
 |Week3|3 Apr, 2025|RS|1|3.5|simple sentences|
 |Week3|2 Apr, 2025|RS|0.5|2.5|simple sentences|

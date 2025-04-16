@@ -24,6 +24,8 @@ All sum :
 |Week|Day|Type|Times|Week Times Sum|Description|
 |:--:|:--:|:--:|:--:|:--:|:----|
 |Week5|ALL|||3||
+|Week5|17 Apr, 2025|WFD|0.5|Plan|simple sentences-listen-98|
+|Week5|17 Apr, 2025|WFD| 0.2| |Save list-16|
 |Week5|16 Apr, 2025|WFD|0.5|3|Save list-16|
 |Week5|16 Apr, 2025|WFD|0.5|2.5|simple sentences-listen-98|
 |Week5|15 Apr, 2025|WFD|0.5|2|simple sentences-listen-98|
@@ -55,3 +57,7 @@ All sum :
 |Week1|23 Mar, 2025|RS|0.3|1|43 simple sentences, check new words|
 |Week1|23 Mar, 2025|WFD|0.5|0.7|simple-20 sentences|
 |Week1|21 Mar, 2025|WFD|0.2|0.2|simple-10 sentences|
+
+
+# Reference
+* [Official-Reading: Self-Improvement](https://www.pearsonpte.com/articles/reading-self-improvement)

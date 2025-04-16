@@ -11,10 +11,22 @@ I will join the PTE test in 2, May, so I need a plan for prepare.
 ## Week Goals and plan
 
 ## Study Log
+All sum :  
+|Week|Times| Times Sum|Description|
+|:--:|:--:|:--:|:----|
+|Week5|3|10.6||
+|Week4|1|7.6||
+|Week3|3.5|6.6||
+|Week2|2.1|3.1||
+|Week1|1|1||
 
+ Week log :   
 |Week|Day|Type|Times|Week Times Sum|Description|
 |:--:|:--:|:--:|:--:|:--:|:----|
-|Week5|ALL|||1.3||
+|Week5|ALL|||3||
+|Week5|16 Apr, 2025|WFD|0.5|3|Save list-16|
+|Week5|16 Apr, 2025|WFD|0.5|2.5|simple sentences-listen-98|
+|Week5|15 Apr, 2025|WFD|0.5|2|simple sentences-listen-98|
 |Week5|15 Apr, 2025|WFD|0.2|1.5|simple sentences-listen-70~98|
 |Week5|15 Apr, 2025|WFD|0.3|1.3|simple sentences-listen-98|
 |Week5|14 Apr, 2025|WFD|0.2|1|simple sentences-check-98|

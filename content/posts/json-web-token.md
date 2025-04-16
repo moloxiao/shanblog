@@ -20,3 +20,9 @@ Online services can’t do without user authentication. Here's how it typically 
 For example, say Website A and Website B are services under the same company. Now we want users to log in once on one site and be automatically logged in on the other. How can we achieve that?
 1. One solution is to persist session data by storing it in a database or another storage layer. Each service retrieves the data from there when a request comes in. he good part is that the architecture is clear. But the downside is it takes a lot of engineering effort. Also, if that central data store goes down, it becomes a single point of failure.
 2. Another approach is to not store session data on the server at all. Instead, all data is stored on the client side and sent back with every request. JWT is a typical solution that follows this approach. 
+
+
+# References
+
+* [Learn how to use JSON Web Tokens (JWT) for Authentication](https://github.com/dwyl/learn-json-web-tokens/blob/main/README.md)
+* [JSON Web Token 入门教程](https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)

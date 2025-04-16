@@ -9,6 +9,7 @@ description = ""
 # Tea time
 
 * Do you like being in the sun? or Do you like soaking up the sun?
+* Are we having a 30-minute or 1-hour break at lunchtime today?  
 
 # What's app
 

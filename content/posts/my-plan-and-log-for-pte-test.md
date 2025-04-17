@@ -25,8 +25,8 @@ All sum :
 |:--:|:--:|:--:|:--:|:--:|:----|
 |Week5|ALL|||3||
 |Week5|17 Apr, 2025|WFD|0.5|Plan|simple sentences-listen-98|
-|Week5|17 Apr, 2025|WFD| 0.2| |Save list-16|
-|Week5|16 Apr, 2025|WFD|0.5|3|Save list-16|
+|Week5|17 Apr, 2025|WFD| 0.2|3.2|Listening list-16|
+|Week5|16 Apr, 2025|WFD|0.5|3|Write list-16|
 |Week5|16 Apr, 2025|WFD|0.5|2.5|simple sentences-listen-98|
 |Week5|15 Apr, 2025|WFD|0.5|2|simple sentences-listen-98|
 |Week5|15 Apr, 2025|WFD|0.2|1.5|simple sentences-listen-70~98|

@@ -1,0 +1,32 @@
+name: Manual Hugo Deploy
+
+on:
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'  # 可指定特定版本，如 '0.121.1'
+
+      - name: Build Hugo site
+        run: hugo
+
+      - name: Push to GitHub Pages repo
+        run: |
+          cd public
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Deploying to GitHub Pages"
+          git branch -M gh-pages
+          git remote add origin https://github.com/moloxiao/moloxiao.github.io.git
+          git push -u origin gh-pages --force

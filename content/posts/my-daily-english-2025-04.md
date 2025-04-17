@@ -15,3 +15,15 @@ description = ""
 
 - I have been unwell this week
 - Sorry to hear that. Hope you’re feeling better now.
+
+
+# Bike
+
+* I pulled a muscle in my left calf while running, and it never fully recovered.
+* "I even had a cramp during my last ride.
+* I hope proper stretching will help me.
+
+
+
+* cramp : / kræmp /
+* stretch : / stretʃ /

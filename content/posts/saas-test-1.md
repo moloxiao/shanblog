@@ -1,6 +1,6 @@
 +++
 title = 'SaaS Test 1 : Phased Testing Strategy for a SaaS System'
-date = 2024-11-07T15:10:00+13:00
+date = 2025-04-20T15:10:00+13:00
 draft = false
 tags = ["Test", "SaaS"]
 description = "This document outlines a practical, phased approach to testing login and registration features in a SaaS application. It balances manual testing and E2E automation based on development stage."

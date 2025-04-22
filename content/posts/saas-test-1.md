@@ -97,3 +97,4 @@ Slack/Webhook alerts for failed test reports
 
 * [Martin Fowler-Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
 * [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
+* [Just Say No to More End-to-End Tests](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)

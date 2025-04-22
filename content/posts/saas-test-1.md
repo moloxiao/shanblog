@@ -91,3 +91,9 @@ Slack/Webhook alerts for failed test reports
 |Demo	|❌ No	|Manual testing + basic case checklist|
 |Stable Dev|	✅ Partial|	Write Playwright tests for key user journeys|
 |Growth Stage|	✅ Full|	Full E2E test suite + CI pipeline integration|
+
+
+## Reference
+
+* [Martin Fowler-Test Pyramid](https://martinfowler.com/bliki/TestPyramid.html)
+* [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)

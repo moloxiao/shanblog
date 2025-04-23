@@ -57,11 +57,16 @@ based on the Test Pyramid model.
 
 ## User Management Feature Test Cases
 
-| Feature Name            | Description                                           | Test Level    | Sample Test Data                                                  | Expected Result                                                  |
-|--------------------------|-------------------------------------------------------|---------------|--------------------------------------------------------------------|------------------------------------------------------------------|
-| Profile Update           | Change email, password, or profile picture           | End-to-End    | New Email: new@abc.com<br>Current Password: Test@1234             | Success: "Profile updated", possibly requires re-login           |
-| Identity Verification    | Require current password before profile updates      | Integration   | Current password is empty or incorrect                            | Error: "Identity verification failed"                            |
-| Email Verification Check | Ensure email is verified before using core features  | End-to-End    | User has not verified email, tries to create a project/order      | Error: "Please verify your email first", action is blocked       |
+
+| Feature Name               | Description                                                                 | Test Level    | Sample Test Data                                                                                     | Expected Result                                                    |
+|----------------------------|-----------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Personal Info Update       | Update user details: last name, mobile number, landline number (required), extension, address | End-to-End    | Last Name: Smith<br>Mobile: 0210000000<br>Landline: 0320000000<br>Ext: 123<br>Address: 123 Main St   | Success: "Profile updated"                                         |
+| Landline Required Check    | Ensure landline number is mandatory when updating profile info              | Unit          | Landline: (empty)                                                                                      | Error: "Landline number is required"                               |
+| Password Change            | Change password by providing current password and confirming new one twice  | End-to-End    | Current: OldPass@123<br>New: NewPass@456<br>Confirm: NewPass@456                                      | Success: "Password updated", user may need to log in again         |
+| Password Mismatch Check    | Ensure new password and confirmation match                                  | Unit          | New Password: NewPass@456<br>Confirm: NewPass@654                                                     | Error: "Passwords do not match"                                    |
+| Current Password Check     | Require correct current password to authorize password change               | Integration   | Current Password: (incorrect)                                                                         | Error: "Current password is incorrect"                             |
+| Email Verification Check   | Ensure email is verified before allowing access to core features            | End-to-End    | User has not verified email, tries to create a project/order                                         | Error: "Please verify your email first", action is blocked         |
+
 
 **Glossary**  :  The **Testing Pyramid** is a software testing strategy that emphasizes having **more low-level tests (fast and cheap)** and **fewer high-level tests (slower and costlier)**. This ensures test coverage is broad, efficient, and maintainable.
 

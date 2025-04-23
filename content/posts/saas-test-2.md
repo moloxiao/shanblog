@@ -63,4 +63,20 @@ based on the Test Pyramid model.
 | Identity Verification    | Require current password before profile updates      | Integration   | Current password is empty or incorrect                            | Error: "Identity verification failed"                            |
 | Email Verification Check | Ensure email is verified before using core features  | End-to-End    | User has not verified email, tries to create a project/order      | Error: "Please verify your email first", action is blocked       |
 
+**Glossary**  :  The **Testing Pyramid** is a software testing strategy that emphasizes having **more low-level tests (fast and cheap)** and **fewer high-level tests (slower and costlier)**. This ensures test coverage is broad, efficient, and maintainable.
+
+Three Layers of the Testing Pyramid :  
+
+| Layer              | Definition                                                                                         | Characteristics                                                                 |
+|--------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| **1. Unit Test**    | Tests individual functions, methods, or components in isolation.                                   | - Fast and lightweight<br>- No external dependencies (e.g., database, API)<br>- Ideal for logic validation |
+| **2. Integration Test** | Tests how different components or systems work together (e.g., database + backend API).             | - Slower than unit tests<br>- Checks service or module interaction<br>- Often test APIs, auth, DB logic     |
+| **3. End-to-End Test (E2E)** | Simulates real user scenarios across the whole system (frontend + backend + DB).              | - Slowest and most resource-intensive<br>- High confidence<br>- Useful for testing critical user workflows |
+
+Key Idea :  
+
+- The **base** of the pyramid is **unit tests**—you should have **the most** of these.
+- The **middle** layer has **integration tests**—fewer, but still essential.
+- The **top** is **E2E tests**—only a **small number** to cover critical user journeys.
+
 

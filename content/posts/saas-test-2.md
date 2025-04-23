@@ -34,12 +34,33 @@ description = ""
 
 
 
-## 2 SaaS Example
+## 2 Minimum Viable Test Plan
+based on the Test Pyramid model.  
 
-### 2.1 Login
+## Login & Registration Feature Test Cases
+
+| Feature Name       | Description                                             | Test Level    | Sample Test Data                                                  | Expected Result                                                  |
+|--------------------|---------------------------------------------------------|---------------|--------------------------------------------------------------------|------------------------------------------------------------------|
+| Sign Up            | Register a new user with email and password             | End-to-End    | Email: test@abc.com<br>Password: Test@1234<br>Confirm: Test@1234  | Registration successful; system sends email verification         |
+| Email Format Check | Validate email input format                             | Unit          | Email: test@abc / test@.com                                       | Error: "Invalid email format"                                   |
+| Password Strength  | Enforce strong password policy                          | Unit          | Password: 12345 / abcde                                           | Error: "Password too weak"                                      |
+| Password Match     | Ensure password and confirmation match                  | Unit          | Password: Test@1234<br>Confirm: Test@4321                         | Error: "Passwords do not match"                                 |
+| Email Verification | Handle email token verification                         | Integration   | Link: `/verify?token=abc123`                                     | Success: "Email verified", user is activated                    |
+| Token Expiry       | Handle expired or invalid email verification link       | Integration   | Link: `/verify?token=expired`                                    | Error: "Verification link is invalid or expired"                |
+| Login              | Login with email and password                           | End-to-End    | Email: test@abc.com<br>Password: Test@1234                       | Login successful, redirect to dashboard                         |
+| Login Rate Limit   | Limit login attempts to prevent brute-force attacks     | Integration   | 5 failed login attempts                                           | Error: "Too many login attempts" or account temporarily locked  |
+| Forgot Password    | Request a password reset link via email                 | Integration   | Email: test@abc.com                                               | Message: "Password reset link sent to your email"              |
+| Reset Password     | Set a new password using the reset link                 | End-to-End    | Link: `/reset?token=abc123`<br>New password: Test@5678           | Message: "Password successfully reset", user can login again    |
+| Logout             | Log the user out and destroy session/token              | Integration   | Click "Logout"                                                    | JWT/session/cookie is cleared, user is redirected to login page |
+
+---
+
+## User Management Feature Test Cases
+
+| Feature Name            | Description                                           | Test Level    | Sample Test Data                                                  | Expected Result                                                  |
+|--------------------------|-------------------------------------------------------|---------------|--------------------------------------------------------------------|------------------------------------------------------------------|
+| Profile Update           | Change email, password, or profile picture           | End-to-End    | New Email: new@abc.com<br>Current Password: Test@1234             | Success: "Profile updated", possibly requires re-login           |
+| Identity Verification    | Require current password before profile updates      | Integration   | Current password is empty or incorrect                            | Error: "Identity verification failed"                            |
+| Email Verification Check | Ensure email is verified before using core features  | End-to-End    | User has not verified email, tries to create a project/order      | Error: "Please verify your email first", action is blocked       |
 
 
-### 2.2 Register
-
-
-### 2.3 Admin User Manager

@@ -37,6 +37,31 @@ description = ""
 ## 2 Minimum Viable Test Plan
 based on the Test Pyramid model.  
 
+## Login 
+
+**example** `AuthService::login()` Unit Test Cases :  
+
+| Test ID | Scenario Description                     | Input Conditions                                                                 | Mocked Behavior                                                | Expected Behavior                                                                 | Key Assertions |
+|---------|-------------------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------------------------|----------------|
+| 1       | Login succeeds with valid credentials     | Valid `email` and `password`; email is verified; status is Active; company type is allowed | `Auth::attempt` returns token; `Auth::user` returns user       | Returns `success: true` with token and user info                                  | `expect($response->success)->toBeTrue()`<br>`expect($response->data['user']->email)->toBe(TEST_ACCOUNT_EMAIL)` |
+| 2       | Login fails due to incorrect password     | Valid email but wrong password                                                   | `Auth::attempt` returns false                                  | Returns `success: false` with login failure message                               | `expect($response->success)->toBeFalse()`<br>`expect($response->message)->toBe(AuthStatus::FAILED->message())` |
+| 3       | Login denied due to disallowed company    | User's company type is not in allowed list                                       | `Auth::user` returns user with disallowed company; `logout` called | Returns `success: false` with "Access forbidden" message                          | `expect($response->success)->toBeFalse()`<br>`expect($response->message)->toContain('Access forbidden')` |
+| 4       | Email not verified, triggers callback     | `email_verified_at` is null                                                      | Callback is invoked; `logout` is called                         | Returns `success: false`; includes `email_verification_required = true`           | `expect($response->success)->toBeFalse()`<br>`expect($called)->toBeTrue()`<br>`expect($response->data['email_verification_required'])->toBeTrue()` |
+| 5       | Login blocked due to `Pending` status     | User status is `Pending`                                                         | `logout` is called                                              | Returns `success: false` with pending status message                              | `expect($response->success)->toBeFalse()`<br>`expect($response->message)->toBe(AuthStatus::PENDING->message())` |
+| 6       | Login blocked due to `Suspended` status   | User status is `Suspended`                                                       | `logout` is called                                              | Returns `success: false` with suspended status message                            | `expect($response->success)->toBeFalse()`<br>`expect($response->message)->toBe(AuthStatus::SUSPENDED->message())` |
+
+
+example result :  
+```
+   PASS  Tests\Unit\Services\Auth\AdminLoginTest
+  ✓ AuthService::login() → it logs in successfully with correct credentials                                                                                                                           0.13s  
+  ✓ AuthService::login() → it fails with incorrect password                                                                                                                                           0.01s  
+  ✓ AuthService::login() → it blocks users with disallowed company type                                                                                                                               0.01s  
+  ✓ AuthService::login() → it requires email verification if email is not verified                                                                                                                    0.03s  
+  ✓ AuthService::login() → it rejects users with Pending status                                                                                                                                       0.01s  
+  ✓ AuthService::login() → it rejects users with Suspended status   
+```
+
 ## Login & Registration Feature Test Cases
 
 | Feature Name       | Description                                             | Test Level    | Sample Test Data                                                  | Expected Result                                                  |

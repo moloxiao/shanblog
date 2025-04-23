@@ -14,7 +14,7 @@ I will join the PTE test in 2, May, so I need a plan for prepare.
 All sum :  
 |Week|Times| Times Sum|Description|
 |:--:|:--:|:--:|:----|
-|Week5|3|10.6||
+|Week5|4.5|12.1||
 |Week4|1|7.6||
 |Week3|3.5|6.6||
 |Week2|2.1|3.1||
@@ -24,7 +24,9 @@ All sum :
 |Week|Day|Type|Times|Week Times Sum|Description|
 |:--:|:--:|:--:|:--:|:--:|:----|
 |Week5|ALL|||3||
-|Week5|17 Apr, 2025|WFD|0.5|Plan|simple sentences-listen-98|
+|Week5|20 Apr, 2025|WFD|0.5|4.5|simple sentences-write-16|
+|Week5|19 Apr, 2025|WFD|0.3|4|simple sentences-listen-98|
+|Week5|17 Apr, 2025|WFD|0.5|3.7|simple sentences-listen-98|
 |Week5|17 Apr, 2025|WFD| 0.2|3.2|Listening list-16|
 |Week5|16 Apr, 2025|WFD|0.5|3|Write list-16|
 |Week5|16 Apr, 2025|WFD|0.5|2.5|simple sentences-listen-98|

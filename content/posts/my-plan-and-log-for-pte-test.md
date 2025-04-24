@@ -39,7 +39,7 @@ I will join the PTE test in 2, May, so I need a plan for prepare.
 
 ---
 
-## 🧠 Notes:
+## Notes:
 - **Speaking & Writing section** has the **highest combined weight (~50%)**.
 - **Repeat Sentence** and **Write from Dictation** are the **most valuable tasks** across the whole exam due to their dual-score contribution.
 - Reading and Listening sections, while shorter in time, contain tasks that impact **multiple scoring areas**.
@@ -70,6 +70,98 @@ I will join the PTE test in 2, May, so I need a plan for prepare.
 | Listening     | Select Missing Word                  | Pick the final word/phrase from 3 options            | Focus on logic of sentence, predict before options appear                                     |
 | Listening     | Highlight Incorrect Words            | Click words that differ from the audio               | Read along carefully, click only obvious mismatches                                           |
 | Listening     | Write from Dictation                 | Type the sentence you heard                          | Practice spelling, focus on plural/singular, capitalize first word                            |
+
+
+##  PTE Template-Based Answer Cheatsheet
+
+This cheatsheet contains high-efficiency answer templates for four PTE Academic task types. These templates help candidates score safely even with minimal preparation, by ensuring fluency, structure, and grammar.
+
+---
+
+### 1️⃣ Describe Image
+**Task:** Describe a visual (graph/chart/picture) in ~40 seconds.
+
+**Template:**
+```
+The image is about [type of image, e.g., a bar chart, a line graph, a pie chart, etc.].
+It provides information related to [...].
+We can see that the highest point is [...], while the lowest is [...].
+Overall, the image shows some clear differences or trends.
+That’s the end of my description.
+```
+
+**Replaceable Phrases:**
+- "shows" → "illustrates" / "presents"
+- "clear differences" → "noticeable variations" / "significant contrasts"
+
+---
+
+## 2️⃣ Retell Lecture
+**Task:** Retell what you heard in a 40-second lecture.
+
+**Template:**
+```
+The lecture is about [main topic].
+The speaker mentioned several points, such as [...], [...], and [...].
+He/She also talked about [...], which is quite important.
+In conclusion, the lecture emphasizes that [...].
+That’s the end of my retelling.
+```
+
+**Replaceable Phrases:**
+- "mentioned" → "discussed" / "pointed out"
+- "emphasizes" → "highlights" / "stresses"
+
+---
+
+## 3️⃣ Summarize Written Text
+**Task:** Write a single sentence (40–70 words) summarizing a passage.
+
+**Template:**
+```
+The passage discusses [main idea],
+and highlights several points including [...], [...], and [...],
+ultimately emphasizing that [...].
+```
+
+**Replaceable Phrases:**
+- "highlights" → "explores" / "addresses"
+- "ultimately emphasizing" → "concluding with the idea that" / "underscoring the fact that"
+
+---
+
+## 4️⃣ Essay Writing
+**Task:** Write a 200–300 word argumentative essay in 20 minutes.
+
+**Template:**
+```
+Introduction:
+It is often argued that [rephrase topic].
+In my opinion, I [agree/disagree] with this view because [...].
+
+Body Paragraph 1:
+Firstly, [...].
+This is important because [...].
+For example, [...].
+
+Body Paragraph 2:
+Moreover, [...].
+This means that [...].
+A good example of this is [...].
+
+Conclusion:
+In conclusion, while there are arguments on both sides, I still believe that [...].
+Therefore, [restate your position].
+```
+
+**Replaceable Phrases:**
+- "Firstly" → "To begin with"
+- "Moreover" → "In addition"
+- "In conclusion" → "To sum up"
+
+---
+
+✅ Use these templates to stabilize your score, especially under time pressure. Speak clearly and with natural pacing, and avoid long pauses or restarts.
 
 
 

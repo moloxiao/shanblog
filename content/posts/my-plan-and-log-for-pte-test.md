@@ -13,16 +13,16 @@ I will join the PTE test in 2, May, so I need a plan for prepare.
 | Part | Section / Task Type                      | Estimated Time      | Number of Items | Approx. Score Contribution (%) | Affects Skills                |
 |------|------------------------------------------|---------------------|-----------------|-------------------------------|-------------------------------|
 | 1    | **Speaking & Writing**                   | ~54–67 minutes      | 28–36           | ~50%                          | Speaking + Writing            |
-|      | Read Aloud                                | –                   | 6–7             | High                          | Speaking, Reading             |
-|      | Repeat Sentence                           | –                   | 10–12           | Very High                     | Speaking, Listening           |
+|      | Read Aloud                                | –                   | 6–7             | **High**                          | Speaking, Reading             |
+|      | Repeat Sentence                           | –                   | 10–12           | **Very High**                     | Speaking, Listening           |
 |      | Describe Image                            | –                   | 6–7             | Moderate                      | Speaking                      |
-|      | Retell Lecture                            | –                   | 3–4             | High                          | Speaking, Listening           |
+|      | Retell Lecture                            | –                   | 3–4             | **High**                          | Speaking, Listening           |
 |      | Answer Short Question                     | –                   | 5–6             | Low                           | Listening, Speaking           |
 | 2    | **Writing**                               | ~54–67 minutes      | 28–36           | ~50%                          | Speaking + Writing            |
 |      | Summarize Written Text                    | ~10 min/item        | 1–2             | Moderate                      | Writing, Reading              |
 |      | Essay                                      | ~20 minutes         | 1               | Moderate–High                | Writing                       |
 | 3    | **Reading**                               | ~29–30 minutes      | 13–18           | ~25%                          | Reading (+ minor Writing)     |
-|      | Reading & Writing: Fill in the Blanks     | –                   | 5–6             | High                          | Reading, Writing              |
+|      | Reading & Writing: Fill in the Blanks     | –                   | 5–6             | **High**                          | Reading, Writing              |
 |      | Multiple Choice, Multiple Answer          | –                   | 1–2             | Low                           | Reading                       |
 |      | Re-order Paragraphs                       | –                   | 2–3             | Moderate                      | Reading                       |
 |      | Fill in the Blanks                        | –                   | 4–5             | Moderate                      | Reading                       |
@@ -35,7 +35,7 @@ I will join the PTE test in 2, May, so I need a plan for prepare.
 |      | Multiple Choice, Single Answer            | –                   | 1–2             | Low                           | Listening                     |
 |      | Select Missing Word                       | –                   | 1–2             | Low                           | Listening                     |
 |      | Highlight Incorrect Words                 | –                   | 2–3             | Moderate                      | Listening, Reading            |
-|      | Write from Dictation                      | –                   | 3–4             | Very High                     | Listening, Writing            |
+|      | Write from Dictation                      | –                   | 3–4             | **Very High**                     | Listening, Writing            |
 
 ---
 

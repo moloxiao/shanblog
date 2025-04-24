@@ -7,6 +7,32 @@ description = ""
 +++
 I will join the PTE test in 2, May, so I need a plan for prepare.
 
+## PTE All Task Types + Quick Strategy Table (For Short Preparation)
+
+| Skill Section | Task Type                            | Task Goal (What to Do)                               | Quick Strategy (How to Score)                                                                 |
+|---------------|--------------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Speaking      | Read Aloud                           | Read the text clearly and fluently                   | Pause at punctuation, speak clearly, don’t rush or restart                                    |
+| Speaking      | Repeat Sentence                      | Repeat exactly what you hear                         | Memorize first & last chunk, keep rhythm even if incomplete                                   |
+| Speaking      | Describe Image                       | Describe a chart or picture                          | Use fixed template, speak confidently, don’t worry about accuracy                             |
+| Speaking      | Retell Lecture                       | Summarize what you heard from a lecture              | Write keywords, use structured template, include 2–3 points minimum                           |
+| Speaking      | Answer Short Question                | Answer a general knowledge question orally           | Give 1-word or short phrase, skip if unsure                                                   |
+| Writing       | Summarize Written Text               | Write one-sentence summary of a passage              | Use linking words (“and”, “which”, “that”), keep sentence 40–70 words                        |
+| Writing       | Essay                                | Write 200–300 word argumentative essay               | Use 4-paragraph template: Intro, 2 Body, Conclusion                                            |
+| Reading       | Reading & Writing Fill Blanks        | Fill missing words in a passage                      | Focus on grammar + collocations (e.g. “strong demand”, “major issue”)                         |
+| Reading       | Multiple Choice, Multiple Answer     | Choose all correct options after reading             | Read question first, avoid overselecting answers (no partial credit)                         |
+| Reading       | Re-order Paragraphs                  | Put sentences in correct order                       | Find topic sentence first, match references (“this”, “these”, etc.)                          |
+| Reading       | Fill in the Blanks                   | Drag and drop correct word into blank                | Focus on meaning + grammar fit, use collocations                                              |
+| Reading       | Multiple Choice, Single Answer       | Choose one best option after reading                 | Read question first, scan quickly, avoid overthinking                                         |
+| Listening     | Summarize Spoken Text                | Write 50–70 word summary of a lecture                | Take notes, use simple structure: Intro + 2 points + summary                                 |
+| Listening     | Multiple Choice, Multiple Answer     | Choose all correct answers after listening           | Focus on main ideas, avoid clicking too many options                                          |
+| Listening     | Fill in the Blanks                   | Type missing words into transcript while listening   | Focus on spelling + grammar; memorize common collocations                                     |
+| Listening     | Highlight Correct Summary            | Choose best summary of what you heard                | Match keywords from audio to options, eliminate wrong tone/detail                            |
+| Listening     | Multiple Choice, Single Answer       | Choose 1 correct answer after listening              | Focus on question stem, find keywords in audio                                                |
+| Listening     | Select Missing Word                  | Pick the final word/phrase from 3 options            | Focus on logic of sentence, predict before options appear                                     |
+| Listening     | Highlight Incorrect Words            | Click words that differ from the audio               | Read along carefully, click only obvious mismatches                                           |
+| Listening     | Write from Dictation                 | Type the sentence you heard                          | Practice spelling, focus on plural/singular, capitalize first word                            |
+
+
 
 ## Week Goals and plan
 

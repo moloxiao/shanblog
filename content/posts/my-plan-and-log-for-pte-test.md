@@ -7,6 +7,45 @@ description = ""
 +++
 I will join the PTE test in 2, May, so I need a plan for prepare.
 
+## PTE Academic Test Structure Summary
+
+
+| Part | Section / Task Type                      | Estimated Time      | Number of Items | Approx. Score Contribution (%) | Affects Skills                |
+|------|------------------------------------------|---------------------|-----------------|-------------------------------|-------------------------------|
+| 1    | **Speaking & Writing**                   | ~54–67 minutes      | 28–36           | ~50%                          | Speaking + Writing            |
+|      | Read Aloud                                | –                   | 6–7             | High                          | Speaking, Reading             |
+|      | Repeat Sentence                           | –                   | 10–12           | Very High                     | Speaking, Listening           |
+|      | Describe Image                            | –                   | 6–7             | Moderate                      | Speaking                      |
+|      | Retell Lecture                            | –                   | 3–4             | High                          | Speaking, Listening           |
+|      | Answer Short Question                     | –                   | 5–6             | Low                           | Listening, Speaking           |
+| 2    | **Writing**                               | ~54–67 minutes      | 28–36           | ~50%                          | Speaking + Writing            |
+|      | Summarize Written Text                    | ~10 min/item        | 1–2             | Moderate                      | Writing, Reading              |
+|      | Essay                                      | ~20 minutes         | 1               | Moderate–High                | Writing                       |
+| 3    | **Reading**                               | ~29–30 minutes      | 13–18           | ~25%                          | Reading (+ minor Writing)     |
+|      | Reading & Writing: Fill in the Blanks     | –                   | 5–6             | High                          | Reading, Writing              |
+|      | Multiple Choice, Multiple Answer          | –                   | 1–2             | Low                           | Reading                       |
+|      | Re-order Paragraphs                       | –                   | 2–3             | Moderate                      | Reading                       |
+|      | Fill in the Blanks                        | –                   | 4–5             | Moderate                      | Reading                       |
+|      | Multiple Choice, Single Answer            | –                   | 1–2             | Low                           | Reading                       |
+| 4    | **Listening**                              | ~30–43 minutes      | 12–20           | ~25%                          | Listening (+ minor Writing)   |
+|      | Summarize Spoken Text                     | ~10 min/item        | 1–2             | Moderate                      | Listening, Writing            |
+|      | Multiple Choice, Multiple Answer          | –                   | 1–2             | Low                           | Listening                     |
+|      | Fill in the Blanks                        | –                   | 2–3             | Moderate                      | Listening, Writing            |
+|      | Highlight Correct Summary                 | –                   | 1–2             | Moderate                      | Listening, Reading            |
+|      | Multiple Choice, Single Answer            | –                   | 1–2             | Low                           | Listening                     |
+|      | Select Missing Word                       | –                   | 1–2             | Low                           | Listening                     |
+|      | Highlight Incorrect Words                 | –                   | 2–3             | Moderate                      | Listening, Reading            |
+|      | Write from Dictation                      | –                   | 3–4             | Very High                     | Listening, Writing            |
+
+---
+
+## 🧠 Notes:
+- **Speaking & Writing section** has the **highest combined weight (~50%)**.
+- **Repeat Sentence** and **Write from Dictation** are the **most valuable tasks** across the whole exam due to their dual-score contribution.
+- Reading and Listening sections, while shorter in time, contain tasks that impact **multiple scoring areas**.
+- Good **time management** and use of **templates/shortcuts** can help maximize scores in limited prep time.
+
+
 ## PTE All Task Types + Quick Strategy Table (For Short Preparation)
 
 | Skill Section | Task Type                            | Task Goal (What to Do)                               | Quick Strategy (How to Score)                                                                 |

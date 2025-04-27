@@ -49,7 +49,7 @@ This creates a **rhythm**. examples :
 * The **hills** and the **mountains** were **covered** in **flowers**
 
 |Test Item|Full Name|Skills Assessed|Number of Tasks|Time per Task|Total Time|
-|:-:|:--:|:----|:----|:-:|:-:|:-:|
+|:-:|:--:|:----|:----|:-:|:-:|
 |RA|Read Aloud |Pronunciation, fluency, and intonation|7|40/s|5/m|
 |RS|Repeat Sentence |Listening, memory, pronunciation, and fluency|12|20/s|4/m|
 |DI|Describe Image |Speaking fluency, clarity, and ability to interpret visual information |7|60/s|5/m|

@@ -92,6 +92,23 @@ Disallow: /tags/
 Sitemap: https://moloxiao.github.io/sitemap.xml
 ```
 
+## Build by github action
+```
+Start building sites … 
+hugo v0.146.5-61328976e11cbb9d906b4a790b8a7cd25b2a914f linux/amd64 BuildDate=2025-04-15T17:54:38Z VendorInfo=gohugoio
+
+WARN  Partial name "partials/templates/_funcs/get-page-images" starting with 'partials/' (as in {{ partial "partials/templates/_funcs/get-page-images"}}) is most likely not what you want. Before 0.146.0 we did a double lookup in this situation.
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-partial-superfluous-prefix']
+ERROR render of "/" failed: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/_default/baseof.html:9:8": execute of template failed: template: list.html:9:8: executing "list.html" at <partial "head.html" .>: error calling partial: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/partials/head.html:13:15": execute of template failed: template: _partials/templates/opengraph.html:13:15: executing "partials/templates/opengraph.html" at <partial "partials/templates/_funcs/get-page-images" .>: error calling partial: partial "partials/templates/_funcs/get-page-images" not found
+ERROR render of "/home/runner/work/shanblog/shanblog/content/books/modern-woodworking/_index.md" failed: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/_default/baseof.html:9:8": execute of template failed: template: list.html:9:8: executing "list.html" at <partial "head.html" .>: error calling partial: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/partials/head.html:13:15": execute of template failed: template: _partials/templates/opengraph.html:13:15: executing "partials/templates/opengraph.html" at <partial "partials/templates/_funcs/get-page-images" .>: error calling partial: partial "partials/templates/_funcs/get-page-images" not found
+ERROR render of "/home/runner/work/shanblog/shanblog/content/books/modern-woodworking/common-woodworking-products.md" failed: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/_default/baseof.html:9:8": execute of template failed: template: single.html:9:8: executing "single.html" at <partial "head.html" .>: error calling partial: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/partials/head.html:13:15": execute of template failed: template: _partials/templates/opengraph.html:13:15: executing "partials/templates/opengraph.html" at <partial "partials/templates/_funcs/get-page-images" .>: error calling partial: partial "partials/templates/_funcs/get-page-images" not found
+ERROR render of "/404" failed: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/_default/baseof.html:9:8": execute of template failed: template: 404.html:9:8: executing "404.html" at <partial "head.html" .>: error calling partial: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/partials/head.html:13:15": execute of template failed: template: _partials/templates/opengraph.html:13:15: executing "partials/templates/opengraph.html" at <partial "partials/templates/_funcs/get-page-images" .>: error calling partial: partial "partials/templates/_funcs/get-page-images" not found
+Total in 112 ms
+Error: error building site: render: failed to render pages: render of "/books" failed: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/_default/baseof.html:9:8": execute of template failed: template: list.html:9:8: executing "list.html" at <partial "head.html" .>: error calling partial: "/home/runner/work/shanblog/shanblog/themes/PaperMod/layouts/partials/head.html:13:15": execute of template failed: template: _partials/templates/opengraph.html:13:15: executing "partials/templates/opengraph.html" at <partial "partials/templates/_funcs/get-page-images" .>: error calling partial: partial "partials/templates/_funcs/get-page-images" not found
+Error: Process completed with exit code 1.
+```
+
 
 # Changelog
 

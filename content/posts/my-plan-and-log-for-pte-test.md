@@ -182,8 +182,9 @@ All sum :
  Week log :   
 |Week|Day|Type|Times|Week Times Sum|Description|
 |:--:|:--:|:--:|:--:|:--:|:----|
-|Week7|ALL|||0||
-|Week6|28 Apr, 2025|WFD|0|0|sentences-check-|
+|Week7|ALL|||0.7||
+|Week7|28 Apr, 2025|RS|0.5|0.7|Listening|
+|Week7|28 Apr, 2025|WFD|0.2|0.2|sentences-check-|
 |Week6|ALL|||3||
 |Week6|27 Apr, 2025|ALL|1.5|2.5|full test:get score 49|
 |Week6|24 Apr, 2025|WFD|0.5|1|Listening list|

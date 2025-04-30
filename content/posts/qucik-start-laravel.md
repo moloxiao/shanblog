@@ -6,7 +6,7 @@ tags = ["QuickStart", "PHP"]
 description = "My notes when I first time learn Laravel."
 +++
 
-# Installing PHP and the Laravel Installer
+# STEP 1 : Installing PHP and the Laravel Installer
 
 Install php in Mac :  
 ```
@@ -18,7 +18,7 @@ install the Laravel installer via Composer:
 composer global require laravel/installer
 ```
 
-# Creating an Application
+# STEP 2 : Creating an Application
 Input :  
 ```
 laravel new thought-manager
@@ -69,10 +69,11 @@ At the end, you will see :
 
 then :  
 ```
-cd hello
+cd thought-manager
 code . // I use vscode 
-➜ npm install && npm run build
-➜ composer run dev
+➜ php artisan serve
 ```
+
+## STEP3 : Hello API
 
 

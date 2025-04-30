@@ -1,7 +1,7 @@
 +++
-title = 'Qucik Start Laravel'
+title = 'Qucik Start : Laravel'
 date = 2025-02-19T10:01:04+13:00
-draft = true
+draft = false
 tags = ["QuickStart", "PHP"]
 description = "My notes when I first time learn Laravel."
 +++
@@ -23,6 +23,25 @@ Input :
 ```
 laravel new hello
 ```
+you will be asked :  
+```
+
+   _                               _
+  | |                             | |
+  | |     __ _ _ __ __ ___   _____| |
+  | |    / _` |  __/ _` \ \ / / _ \ |
+  | |___| (_| | | | (_| |\ V /  __/ |
+  |______\__,_|_|  \__,_| \_/ \___|_|
+
+
+ Which starter kit would you like to install? [None]:
+  [none    ] None
+  [react   ] React
+  [vue     ] Vue
+  [livewire] Livewire
+```
+I choice none because I created a api project.
+
 The Laravel installer will prompt you to select your preferred testing framework, database, and starter kit.
 # Creating a Markdown table summarizing the differences between Laravel Starter Kits
 

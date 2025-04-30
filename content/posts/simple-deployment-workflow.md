@@ -49,24 +49,25 @@ Prerequisites :
 - You have a Git repository initialized.
 - You are currently on the `main` branch.
 
-| Phase | Step | Description | VSCode Action |
-|-------|------|-------------|----------------|
-| **1. Create Branch** | 1.1 | Make sure you are on the `main` branch | Click bottom-left branch name → select `main` |
-|                       | 1.2 | Create `developer` branch | Click branch name → `Create new branch...` → name it `developer` |
-|                       | 1.3 | Automatically switch to `developer` | VSCode switches branch after creation |
-| **2. Daily Commit**   | 2.1 | Make code changes | Edit your files in VSCode |
-|                       | 2.2 | View file changes | Click Source Control (Git icon in sidebar) |
-|                       | 2.3 | Add a commit message | Enter a message like `Added user login` |
-|                       | 2.4 | Commit changes | Click ✔️ checkmark |
-|                       | 2.5 | (Optional) Push to remote | Click `Sync Changes` |
-| **3. Merge to `main`**| 3.1 | Switch to `main` | Click branch name → choose `main` |
-|                       | 3.2 | Merge from `developer` | Click branch name → `Merge Branch...` → select `developer` |
-|                       | 3.3 | Handle merge commit | Commit if prompted |
-|                       | 3.4 | Push merged `main` | Click `Sync Changes` |
-| **4. Clean Branch**   | 4.1 | Delete old `developer` branch | Terminal: `git branch -d developer` |
-|                       | 4.2 | Delete remote branch (if needed) | Terminal: `git push origin --delete developer` |
-|                       | 4.3 | Recreate from updated `main` | Terminal: `git checkout main` → `git pull` → `git checkout -b developer` |
-|                       | 4.4 | Push new `developer` branch | Terminal: `git push -u origin developer` |
+
+| Phase               | Step | Description                          | VSCode Action                                                   | Git Behind the Scenes                              |
+|--------------------|------|--------------------------------------|------------------------------------------------------------------|-----------------------------------------------------|
+| **1. Create Branch** | 1.1 | Make sure you are on the `main` branch | Click bottom-left branch name → select `main`                    | `git checkout main`                                 |
+|                     | 1.2 | Create `developer` branch             | Click branch name → `Create new branch...` → name it `developer` | `git checkout -b developer`                         |
+|                     | 1.3 | Automatically switch to `developer`  | VSCode switches branch after creation                            | *(Part of previous command)*                        |
+| **2. Daily Commit** | 2.1 | Make code changes                     | Edit your files in VSCode                                        | *(Working directory changes only)*                 |
+|                     | 2.2 | View file changes                     | Click Source Control (Git icon in sidebar)                       | *(No git command yet)*                             |
+|                     | 2.3 | Add a commit message                  | Enter a message like `Added user login`                          | *(Prepare for commit)*                             |
+|                     | 2.4 | Commit changes                        | Click ✔️ checkmark                                               | `git add` + `git commit -m "message"`               |
+|                     | 2.5 | (Optional) Push to remote             | Click `Sync Changes` or `Push`                                   | `git push origin developer`                         |
+| **3. Merge to `main`** | 3.1 | Switch to `main`                     | Click branch name → choose `main`                                | `git checkout main`                                 |
+|                     | 3.2 | Merge from `developer`                | Click branch name → `Merge Branch...` → select `developer`       | `git merge developer`                               |
+|                     | 3.3 | Handle merge commit                   | Commit if prompted                                               | `git commit` (if auto-merge needs it)               |
+|                     | 3.4 | Push merged `main`                    | Click `Sync Changes` or `Push`                                   | `git push origin main`                              |
+| **4. Clean Branch** | 4.1 | Delete old `developer` branch         | Terminal                                                         | `git branch -d developer`                           |
+|                     | 4.2 | Delete remote branch (if needed)      | Terminal                                                         | `git push origin --delete developer`                |
+
+
 
 Summary :  
 

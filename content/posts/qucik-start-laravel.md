@@ -21,8 +21,9 @@ composer global require laravel/installer
 # Creating an Application
 Input :  
 ```
-laravel new hello
+laravel new thought-manager
 ```
+thought-manager is my test project name.  
 you will be asked :  
 ```
 

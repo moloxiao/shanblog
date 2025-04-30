@@ -171,7 +171,7 @@ Therefore, [restate your position].
 All sum :  
 |Week|Times| Times Sum|Description|
 |:--:|:--:|:--:|:----|
-|Week7|0|14.6||
+|Week7|1.5|16.6||
 |Week6|2.5|14.6||
 |Week5|4.5|12.1||
 |Week4|1|7.6||
@@ -182,7 +182,10 @@ All sum :
  Week log :   
 |Week|Day|Type|Times|Week Times Sum|Description|
 |:--:|:--:|:--:|:--:|:--:|:----|
-|Week7|ALL|||0.7||
+|Week7|ALL|||2.0||
+|Week7|1 May, 2025|WFD|0.3|2.0|Listening|
+|Week7|30 Apr, 2025|WFD|0.5|1.7|Describe Image - template practice|
+|Week7|30 Apr, 2025|WFD|0.5|1.2|Listening|
 |Week7|28 Apr, 2025|RS|0.5|0.7|Listening|
 |Week7|28 Apr, 2025|WFD|0.2|0.2|sentences-check-|
 |Week6|ALL|||3||

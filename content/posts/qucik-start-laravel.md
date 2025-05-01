@@ -6,7 +6,7 @@ tags = ["QuickStart", "PHP"]
 description = "My notes when I first time learn Laravel."
 +++
 
-# STEP 1 : Installing PHP and the Laravel Installer
+## STEP 1 : Installing PHP and the Laravel Installer
 
 Install php in Mac :  
 ```
@@ -18,7 +18,7 @@ install the Laravel installer via Composer:
 composer global require laravel/installer
 ```
 
-# STEP 2 : Creating an Application
+## STEP 2 : Creating an Application
 Input :  
 ```
 laravel new thought-manager
@@ -74,7 +74,7 @@ code . // I use vscode
 ➜ php artisan serve
 ```
 
-## STEP3 : Hello API
+## STEP 3 : Hello API
 update routes/web.php :  
 ```
 <?php
@@ -94,7 +94,7 @@ Route::prefix('api')->group(function () {
 });
 
 ```
-## STEP4 : remove no need file
+## STEP 4 : remove no need file
 
 ```
 #!/bin/bash
@@ -113,4 +113,44 @@ echo "✅ Cleanup complete. Your Laravel API project is now lean and clean!"
 
 ```
 
-## STEP5 : support login
+## STEP 5 : Init DB
+The local SQLite database was created and the initial migrations were completed automatically during Laravel's initialization. My only task now is to add a test user.  
+
+1. Add a password line in database/seeders/DatabaseSeeder.php:
+```
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\User;
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
+
+class DatabaseSeeder extends Seeder
+{
+    /**
+     * Seed the application's database.
+     */
+    public function run(): void
+    {
+        // User::factory(10)->create();
+
+        User::factory()->create([
+            'name' => 'Test User',
+            'email' => 'test@gmail.com',
+            'password' => Hash::make('password'), // default not contain this line
+        ]);
+    }
+}
+```
+
+2. Run the database seeding command:
+```
+php artisan db:seed
+```
+
+
+
+
+

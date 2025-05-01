@@ -182,7 +182,37 @@ class DatabaseSeeder extends Seeder
 php artisan db:seed
 ```
 
-## STEP 6 : Config JWT
+## STEP 6 : Config JWT(tymon/jwt-auth)
+
+install **tymon/jwt-auth** :  
+```
+composer require tymon/jwt-auth
+```
+publish config file :  
+```
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+```
+It will create config/jwt.php file.  
+
+then generatejwt secret :  
+```
+php artisan jwt:secret
+```
+It will create JWT_SECRET in .env file.  
+Then open config/auth.php, change :  
+```
+'defaults' => [
+    'guard' => 'api',
+    'passwords' => 'users',
+],
+
+'guards' => [
+    'api' => [
+        'driver' => 'jwt',
+        'provider' => 'users',
+    ],
+],
+```
 
 ## STEP 7 : Support Login 
 

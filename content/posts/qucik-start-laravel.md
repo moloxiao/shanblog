@@ -94,6 +94,38 @@ Route::prefix('api')->group(function () {
 });
 
 ```
+
+but this will have some problem about **CSRF**, so we need update.  
+open bootstrap/app.php : 
+```
+return Application::configure(basePath: dirname(__DIR__))
+    ->withRouting(
+        web: __DIR__.'/../routes/web.php',
+        api: __DIR__.'/../routes/api.php', // add this line
+    )
+    ->withMiddleware(function() {
+        //
+    })
+    ->withExceptions(function() {
+        //
+    })
+    ->create();
+
+```
+and create a new file in routes/api.php :  
+```
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\TestController;
+
+Route::prefix('v1')->group(function () {
+    
+    Route::get('/test', [TestController::class, 'index']);
+});
+```
+
 ## STEP 4 : remove no need file
 
 ```
@@ -150,7 +182,9 @@ class DatabaseSeeder extends Seeder
 php artisan db:seed
 ```
 
+## STEP 6 : Config JWT
 
+## STEP 7 : Support Login 
 
-
+## STEP 8 : check login 
 

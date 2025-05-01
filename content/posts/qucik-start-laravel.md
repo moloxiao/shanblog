@@ -1,9 +1,9 @@
 +++
 title = 'Qucik Start : Laravel'
-date = 2025-02-19T10:01:04+13:00
+date = 2025-02-19T20:20:01+13:00
 draft = false
-tags = ["QuickStart", "PHP"]
-description = "My notes when I first time learn Laravel."
+tags = ["QuickStart", "PHP", "JWT", "API", "SaaS"]
+description = "My notes when I learn Laravel create a API project use JWT. My first use in 2025-02-19, rewrite in 2025-04-01."
 +++
 
 ## STEP 1 : Installing PHP and the Laravel Installer
@@ -215,6 +215,96 @@ Then open config/auth.php, change :
 ```
 
 ## STEP 7 : Support Login 
+create controller :  
+```
+php artisan make:controller AuthController
+```
+and add login method :  
+```
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Tymon\JWTAuth\Facades\JWTAuth;
+use Tymon\JWTAuth\Exceptions\JWTException;
+
+class AuthController extends Controller
+{
+    public function login(Request $request)
+    {
+        $credentials = $request->only(['email', 'password']);
+
+        try {
+            if (!$token = JWTAuth::attempt($credentials)) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Invalid email or password',
+                    'data' => null,
+                ], 401);
+            }
+        } catch (JWTException $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Could not create token',
+                'data' => null,
+            ], 500);
+        }
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Login successful',
+            'data' => [
+                'token' => $token,
+                'token_type' => 'bearer',
+                'expires_in' => config('jwt.ttl') * 60,
+            ],
+        ]);
+    }
+}
+
+```
+
+and update routes/api.php : 
+```
+use App\Http\Controllers\AuthController;
+
+Route::post('/auth/login', [AuthController::class, 'login']);
+```
+
+then update app/Models/User.php :  
+```
+use Tymon\JWTAuth\Contracts\JWTSubject;
+
+class User extends Authenticatable implements JWTSubject
+{
+    // ...
+
+    public function getJWTIdentifier()
+    {
+        return $this->getKey();
+    }
+
+    public function getJWTCustomClaims()
+    {
+        return [
+            'id' => $this->id,
+            'name' => $this->name,
+            'email' => $this->email,
+        ];
+    }
+}
+
+```
+When finish use postman or curl test, this is postman body(raw) json :  
+```
+{
+  "email": "test@gmail.com",
+  "password": "password"
+}
+
+```
 
 ## STEP 8 : check login 
 

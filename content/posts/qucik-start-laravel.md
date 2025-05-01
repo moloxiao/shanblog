@@ -306,5 +306,17 @@ When finish use postman or curl test, this is postman body(raw) json :
 
 ```
 
-## STEP 8 : check login 
-
+## STEP 8 : API protect
+The key code is routes/app.php from :  
+```
+Route::prefix('v1')->group(function () {
+    
+    Route::get('/test', [TestController::class, 'index']);
+});
+```
+to :  
+```
+Route::prefix('v1')->middleware('auth:api')->group(function () {
+    Route::get('/test', [TestController::class, 'index']);
+});
+```

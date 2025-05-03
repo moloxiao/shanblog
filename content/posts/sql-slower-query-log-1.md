@@ -1,5 +1,5 @@
 +++
-title = 'My Plan and Log for Pte Test'
+title = 'SQL slower query log : 1'
 date = 2025-04-01T20:02:09+13:00
 draft = false
 tags = ["SQL", "SlowerQuery"]

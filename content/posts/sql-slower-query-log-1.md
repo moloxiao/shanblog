@@ -7,7 +7,7 @@ description = ""
 +++
 
 
-## Query1 - NOT solve
+## Query1[companyExWarehouseOrderItem] - NOT solve
 ```
 SELECT a.*, b.name AS stateName, b.nameZh AS stateNameZh, c.partNo, c.aliasName AS componentAliasName,       c.spec AS componentSpec, c.colour AS componentColour, c.componentTypeId, c.businessTypeId, c.modelNo,        d.name AS componentTypeName, d.nameZh AS componentTypeNameZh, d.customerNo AS componentTypeNo,       f.name AS unitTypeName, f.nameZh AS unitTypeNameZh, g.orderNo AS parentOrderNo,       h.customerNo AS planCustomerNo, h.orderLineNumber AS planOrderLineNumber, h.planNo, h.extendDesc AS planDesc, h.amount, h.unitPrice, h.currencyId,       j.grossAmount, j.unmetAmount, k.demandId, l.userName AS qcCheckerNameZh, m.nameZh AS currencyNameZh       FROM companyExWarehouseOrderItem AS a, companyExWarehouseOrderState AS b, companyBasicComponent AS c, companyComponentType AS d,       companyBasicComponentBomUnitType AS f, companyExWarehouseOrder AS g, companyProductionSchedules AS h, companyProductionSchedulesBom AS j,      companyProductionDemandSchedule AS k, user AS l, currency AS m       WHERE a.parentId = 27682 AND a.sourceTypeId = 1 AND a.stateId = b.id AND a.componentId = c.id AND c.componentTypeId = d.id AND c.unitTypeId = f.id AND a.parentId = g.id AND a.scheduleId = h.id AND h.id = j.scheduleId       AND a.componentId = j.componentId AND a.scheduleId = k.scheduleId AND a.qcCheckerId = l.id AND h.currencyId = m.id;
 ```
@@ -26,7 +26,7 @@ then : 3.65
 
 
 
-## Query 2
+## Query 2[companyProductionSchedulesBom]
 
 ```
 SELECT a.*, b.orderNo AS planNo, b.requireDate, b.requireDate AS planStartDate, f.aliasName, f.partNo, f.spec
@@ -48,9 +48,8 @@ ADD INDEX idx_optimize_query (
 优化后:
 **1.5 -> 0.0010**
 
-## Query 3
+## Query 3[warehousingRecode]
 ```
-# User@Host: etaSlave[etaSlave] @  [10.25.90.9] id: 20367468
 # Query_time: 11  Lock_time: 0  Rows_sent: 0  Rows_examined: 573780
 SET timestamp=1745708909
 SELECT a.*, b.partNo, b.aliasName AS componentAliasName, b.spec AS componentSpec, b.componentTypeId, c.name AS componentTypeName, c.nameZh AS componentTypeNameZh, c.customerNo AS componentTypeNo, d.name AS productTypeName, d.nameZh AS productTypeNameZh, e.name AS stateName , e.nameZh AS stateNameZh,  f.name AS typeName, f.nameZh AS typeNameZh,       g.name AS basicTypeName, g.nameZh AS basicTypeNameZh, h.name AS unitTypeName, h.nameZh AS unitTypeNameZh, k.typeId AS storageBinTypeId, l.eName AS prepareUserName, l.userName AS prepareUserNameZh       FROM warehousingRecode AS a, companyBasicComponent AS b, companyComponentType AS c, warehousingRecodeProductType AS d , warehousingRecodeState AS e, materialRequirementType AS f, materialRequirementBasicType AS g, companyBasicComponentBomUnitType AS h,companyWarehouse AS j, warehouseStorageBinLevelTag AS k, user AS l        WHERE a.relationNo = 'DX-SP-2504190007' AND a.typeId = 2 AND a.componentId = b.id AND b.componentTypeId = c.id  AND a.productTypeId = d.id AND a.stateId = e.id AND a.typeId = f.id AND a.basicTypeId = g.id AND b.unitTypeId = h.id AND a.storageBinId != 0 AND a.storageBinId = j.id AND j.levelTagId = k.id AND a.prepareUserId = l.id;
@@ -62,7 +61,7 @@ CREATE INDEX idx_warehousingRecode_main ON warehousingRecode (relationNo, typeId
 优化后:
 **1.5 -> 0.0010**
 
-## Query 4  - NOT solve
+## Query 4[companyProductionSchedulesTask-workshopByTimeWagesApply]  - NOT solve
 ```
 # Query_time: 4  Lock_time: 0  Rows_sent: 1  Rows_examined: 367178
 SET timestamp=1746316614
@@ -80,7 +79,7 @@ CREATE INDEX idx_task_filter ON companyProductionSchedulesTask(companyId, stateI
 then : 3.6
 
 
-### Query 5
+### Query 5[warehousingMaterialRequisitionItem]
 ```
 # Query_time: 3  Lock_time: 0  Rows_sent: 0  Rows_examined: 5284489
 SET timestamp=1746317175

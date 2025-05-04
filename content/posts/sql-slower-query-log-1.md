@@ -85,3 +85,20 @@ SELECT relationNo, SUM(numbers) AS numbers FROM warehousingRecode WHERE typeId I
 SET timestamp=1745812398
 SELECT a.*, b.name AS stateName, b.nameZh AS stateNameZh, c.eName AS userName, c.userName AS userNameZh, d.name AS procedureName, d.nameZh AS procedureNameZh,     e.workshopId, e.name AS workCenterName, e.nameZh AS workCenterNameZh, f.eName AS workCenterManagerName, f.userName AS workCenterManagerNameZh,     h.planNo AS schedulePlanNo, h.requireDate AS scheduleRequireDate, h.netAmount, h.bomId, h.componentId, k.partNo, k.componentTypeId, k.aliasName AS componentAliasName, k.spec AS componentSpec,     l.customerNo AS componentTypeNo, l.nameZh AS componentTypeNameZh, l.name AS componentTypeName, m.procedureWagesTypeId, m.id AS componentProcedureId, m.estimateTimePrice, m.totalCost, m.cost, n.nameZh AS teamNameZh     FROM `companyProductionSchedulesTask` AS a, `companyProductionSchedulesTaskState` AS b, `user` AS c, meProcedure AS d, pmcWorkshopProductionLine AS e, user AS f,     companyProductionSchedules AS h, companyBasicComponent AS k, companyComponentType AS l, companyComponentTechnicProcedure AS m, companyWorkshopTeam AS n     WHERE a.companyId = 2  AND a.stateId = 0 AND a.id NOT IN (SELECT taskId FROM workshopByTimeWagesApply WHERE companyId = 2 AND id != 29645 ) AND a.stateId = b.id AND a.userId = c.id AND a.procedureId = d.id AND a.workCenterId = e.id AND a.workCenterManagerId = f.id AND e.workshopId = 5     AND a.schedulesId = h.id AND h.componentId = k.id AND k.componentTypeId = l.id AND a.procedureId = m.procedureId AND m.procedureWagesTypeId = 2 AND h.componentId = m.componentId AND a.teamId = n.id AND a.completeDate >= '2025-03-29' AND a.completeDate <= '2025-04-29';
 ```
+
+
+### Query 7
+```
+# Query_time: 3  Lock_time: 0  Rows_sent: 0  Rows_examined: 5284489
+SET timestamp=1746317175
+SELECT a.*, b.name AS stateName, b.nameZh AS stateNameZh, c.partNo, c.aliasName AS componentAliasName, c.spec AS componentSpec, c.componentTypeId,   d.name AS componentTypeName, d.nameZh AS componentTypeNameZh, d.customerNo AS componentTypeNo, e.eName AS prepareUserName, e.userName AS prepareUserNameZh, f.name AS unitTypeName, f.nameZh AS unitTypeNameZh, f.integerTag AS unitTypeIntegerTag, g.orderNo AS parentOrderNo   FROM warehousingMaterialRequisitionItem AS a, warehousingMaterialRequisitionState AS b, companyBasicComponent AS c, companyComponentType AS d, user AS e, companyBasicComponentBomUnitType AS f, warehousingMaterialRequisition AS g   WHERE a.stateId = b.id AND a.componentId = c.id AND c.componentTypeId = d.id AND a.prepareUserId = e.id AND c.unitTypeId = f.id AND a.parentId = g.id AND g.relationId = 199743;
+```
+5.0273(3.2)
+```
+CREATE INDEX idx_relationId ON warehousingMaterialRequisition(relationId);
+```
+then : 0.0009
+```
+CREATE INDEX idx_parentId ON warehousingMaterialRequisitionItem(parentId);
+```
+then : 0.0006

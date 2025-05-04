@@ -11,10 +11,16 @@ description = ""
 ```
 SELECT a.*, b.name AS stateName, b.nameZh AS stateNameZh, c.partNo, c.aliasName AS componentAliasName,       c.spec AS componentSpec, c.colour AS componentColour, c.componentTypeId, c.businessTypeId, c.modelNo,        d.name AS componentTypeName, d.nameZh AS componentTypeNameZh, d.customerNo AS componentTypeNo,       f.name AS unitTypeName, f.nameZh AS unitTypeNameZh, g.orderNo AS parentOrderNo,       h.customerNo AS planCustomerNo, h.orderLineNumber AS planOrderLineNumber, h.planNo, h.extendDesc AS planDesc, h.amount, h.unitPrice, h.currencyId,       j.grossAmount, j.unmetAmount, k.demandId, l.userName AS qcCheckerNameZh, m.nameZh AS currencyNameZh       FROM companyExWarehouseOrderItem AS a, companyExWarehouseOrderState AS b, companyBasicComponent AS c, companyComponentType AS d,       companyBasicComponentBomUnitType AS f, companyExWarehouseOrder AS g, companyProductionSchedules AS h, companyProductionSchedulesBom AS j,      companyProductionDemandSchedule AS k, user AS l, currency AS m       WHERE a.parentId = 27682 AND a.sourceTypeId = 1 AND a.stateId = b.id AND a.componentId = c.id AND c.componentTypeId = d.id AND c.unitTypeId = f.id AND a.parentId = g.id AND a.scheduleId = h.id AND h.id = j.scheduleId       AND a.componentId = j.componentId AND a.scheduleId = k.scheduleId AND a.qcCheckerId = l.id AND h.currencyId = m.id;
 ```
-38次 慢查询
+
+before : 4.0291
+code use in : solution.getSales().getTask().getExWarehouse().getItem().getListByParentId(mysqlCoon.getSlaveConn(), detailInfo.id, cb);
+
+```
+CREATE INDEX idx_exOrder_parent_source ON companyExWarehouseOrderItem (parentId, sourceTypeId);
+```
+then : 3.65
 
 
-solution.getSales().getTask().getExWarehouse().getItem().getListByParentId(mysqlCoon.getSlaveConn(), detailInfo.id, cb);
 
 
 

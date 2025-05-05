@@ -7,7 +7,7 @@ description = ""
 +++
 
 
-## Query1[companyExWarehouseOrderItem] - NOT solve
+## Query1 [companyExWarehouseOrderItem] - NOT solve
 ```
 SELECT a.*, b.name AS stateName, b.nameZh AS stateNameZh, c.partNo, c.aliasName AS componentAliasName,       c.spec AS componentSpec, c.colour AS componentColour, c.componentTypeId, c.businessTypeId, c.modelNo,        d.name AS componentTypeName, d.nameZh AS componentTypeNameZh, d.customerNo AS componentTypeNo,       f.name AS unitTypeName, f.nameZh AS unitTypeNameZh, g.orderNo AS parentOrderNo,       h.customerNo AS planCustomerNo, h.orderLineNumber AS planOrderLineNumber, h.planNo, h.extendDesc AS planDesc, h.amount, h.unitPrice, h.currencyId,       j.grossAmount, j.unmetAmount, k.demandId, l.userName AS qcCheckerNameZh, m.nameZh AS currencyNameZh       FROM companyExWarehouseOrderItem AS a, companyExWarehouseOrderState AS b, companyBasicComponent AS c, companyComponentType AS d,       companyBasicComponentBomUnitType AS f, companyExWarehouseOrder AS g, companyProductionSchedules AS h, companyProductionSchedulesBom AS j,      companyProductionDemandSchedule AS k, user AS l, currency AS m       WHERE a.parentId = 27682 AND a.sourceTypeId = 1 AND a.stateId = b.id AND a.componentId = c.id AND c.componentTypeId = d.id AND c.unitTypeId = f.id AND a.parentId = g.id AND a.scheduleId = h.id AND h.id = j.scheduleId       AND a.componentId = j.componentId AND a.scheduleId = k.scheduleId AND a.qcCheckerId = l.id AND h.currencyId = m.id;
 ```
@@ -26,7 +26,7 @@ then : 3.65
 
 
 
-## Query 2[companyProductionSchedulesBom]
+## Query 2 [companyProductionSchedulesBom]
 
 ```
 SELECT a.*, b.orderNo AS planNo, b.requireDate, b.requireDate AS planStartDate, f.aliasName, f.partNo, f.spec
@@ -48,7 +48,7 @@ ADD INDEX idx_optimize_query (
 优化后:
 **1.5 -> 0.0010**
 
-## Query 3[warehousingRecode]
+## Query 3 [warehousingRecode]
 ```
 # Query_time: 11  Lock_time: 0  Rows_sent: 0  Rows_examined: 573780
 SET timestamp=1745708909
@@ -61,7 +61,7 @@ CREATE INDEX idx_warehousingRecode_main ON warehousingRecode (relationNo, typeId
 优化后:
 **1.5 -> 0.0010**
 
-## Query 4[companyProductionSchedulesTask-workshopByTimeWagesApply]  - NOT solve
+## Query 4 [companyProductionSchedulesTask-workshopByTimeWagesApply]  - NOT solve
 ```
 # Query_time: 4  Lock_time: 0  Rows_sent: 1  Rows_examined: 367178
 SET timestamp=1746316614
@@ -79,7 +79,7 @@ CREATE INDEX idx_task_filter ON companyProductionSchedulesTask(companyId, stateI
 then : 3.6
 
 
-### Query 5[warehousingMaterialRequisitionItem]
+##  Query 5 [warehousingMaterialRequisitionItem]
 ```
 # Query_time: 3  Lock_time: 0  Rows_sent: 0  Rows_examined: 5284489
 SET timestamp=1746317175
@@ -95,3 +95,36 @@ CREATE INDEX idx_parentId ON warehousingMaterialRequisitionItem(parentId);
 ```
 then : 0.0006
 
+## Query 6 - TODO
+```
+# Time: 2025-05-05T08:30:08.446229 CST
+# User@Host: eta[eta] @  [10.25.90.9] id: 18307659
+# Query_time: 11  Lock_time: 0  Rows_sent: 3711  Rows_examined: 578127
+SET timestamp=1746405008
+SELECT * FROM warehousingRecode WHERE companyId = 16 AND stateId = 3 AND updatePlanOrderTag = 0 AND typeId = 2;
+```
+
+## Query 7  - TODO
+```
+# Time: 2025-05-05T08:30:47.087622 CST
+# User@Host: eta[eta] @  [10.25.90.9] id: 18307659
+# Query_time: 8  Lock_time: 0  Rows_sent: 1  Rows_examined: 267827
+SET timestamp=1746405047
+SELECT componentId, SUM(numbers) AS netAmount, SUM(deliveryNumbers) AS completeNumbers, SUM(numbers - deliveryNumbers) AS waitInNumbers         FROM `companyProcurementMaterielOrder`          WHERE companyId = 16 AND stateId IN (1, 3, 5, 8, 9) AND componentId IN (916339) GROUP BY componentId;
+```
+
+## Query 8 - TODO
+```
+# Time: 2025-05-05T08:30:08.446229 CST
+# User@Host: eta[eta] @  [10.25.90.9] id: 18307659
+# Query_time: 11  Lock_time: 0  Rows_sent: 3711  Rows_examined: 578127
+SET timestamp=1746405008
+SELECT * FROM warehousingRecode WHERE companyId = 16 AND stateId = 3 AND updatePlanOrderTag = 0 AND typeId = 2;
+```
+
+## Query 9 - TODO
+```
+# Query_time: 3  Lock_time: 0  Rows_sent: 0  Rows_examined: 1842970
+SET timestamp=1746405246
+UPDATE warehousingRecode SET stateId = 4 WHERE companyId = 2 AND operateNo IN ( SELECT orderNo FROM warehousingDeliveryVoucher WHERE companyId = 2 AND id IN (60635) ) AND stateId != 4 AND stateId != 3;
+```

@@ -15,6 +15,9 @@ In Laravel, there are several important differences between directly using the e
 Using config(): Laravel can cache configuration files (via php artisan config:cache command) to improve performance. When configurations are cached, the .env file is no longer read, and the system uses the cached configuration values instead.
 2. **Production Best Practices** : Laravel officially recommends using env() in configuration files and then using config() in your application code. This is because **when you run config:cache in production, code that directly uses env() will not be able to retrieve environment variable values**.
 
+```
+php artisan config:cache # every time when update .env we need run this
+```
 
 
 ## Deployment

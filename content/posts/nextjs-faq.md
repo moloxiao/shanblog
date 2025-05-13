@@ -2,11 +2,11 @@
 title = 'Nextjs FAQ'
 date = 2025-03-04T11:04:01+13:00
 draft = false
-tags = ["Laravel", "PHP", "NEXTJS"]
+tags = ["NEXTJS"]
 description = "."
 +++
 
-# When to Use Direct API Calls vs. Next.js Server Proxy
+## When to Use Direct API Calls vs. Next.js Server Proxy
 Use Next.js API Routes when:  
 * You need to hide API keys or other secrets  
 * You want to aggregate multiple API calls  
@@ -19,7 +19,7 @@ Direct API calls might be acceptable when:
 * The backend already handles CORS and is specifically designed for browser access
 * You need real-time updates (although you could still use WebSockets through Next.js)  
 
-# Why and when use React Context  
+## Why and when use React Context  
 React Context is designed to solve the "Props Drilling" problem, where deeply nested components need access to shared data, but passing props through multiple levels becomes cumbersome. It allows global state sharing, making it useful for themes, authentication, and localization.   
 
 **AuthContext Example**  
@@ -41,3 +41,9 @@ Example: Navbar accesses user, login, and logout functions via useAuth().
 * Eliminates unnecessary prop-passing.
 * Provides a structured way to manage global state.
 * Improves maintainability and readability of code.
+
+## Pitfalls Collection
+
+### 1 Next.js Link Prefetching Behavior
+
+Next.js Link component automatically prefetches page data when links enter the viewport in production, but this feature is disabled in development mode. This can lead to unexpected 404 errors in production if the linked pages don't exist - a common issue that can be resolved by adding prefetch={false} to disable this behavior.

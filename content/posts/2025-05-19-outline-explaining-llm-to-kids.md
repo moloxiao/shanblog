@@ -1,7 +1,7 @@
 +++
 title = 'Outline : Explaining Llm to Kids'
 date = 2025-05-19T20:02:09+13:00
-draft = false
+draft = true
 tags = ["LLM", "AI", "Kids"]
 description = "."
 +++

@@ -1,7 +1,7 @@
 +++
 title = 'Goal and Task'
 date = 2025-05-07T20:02:09+13:00
-draft = false
+draft = true
 tags = [""]
 description = ""
 +++

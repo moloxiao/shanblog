@@ -28,7 +28,7 @@ This will create a file named about.md in the content directory.
 
 
 ## add google analytics
-
+visit [google analytics](https://analytics.google.com/) to generate Google Analytics parameter. 
 1. Update config.toml  
 Open your config.toml file. Add the Google Analytics parameter:
 ```
@@ -38,9 +38,7 @@ Open your config.toml file. Add the Google Analytics parameter:
 2. Locate and Edit baseof.html  
 Navigate to "themes/your-theme-name/layouts/_default/". 
 Open baseof.html for editing :  
-```
-...
-
+```html
 <head>
     {{- partial "head.html" . }}
     
@@ -55,13 +53,12 @@ Open baseof.html for editing :
     </script>
     {{ end }}
 </head>
-...
 ```
 
 ## Configure Hugo to Generate a Sitemap
 Hugo has built-in support for generating XML sitemaps. You just need to enable it in your configuration file.
 Open your Hugo project’s configuration file config.toml(or config.yaml). Add or update the following configuration to enable the sitemap :  
-```
+```yaml
 [outputs]
   home = ["HTML", "RSS", "SITEMAP"]
 

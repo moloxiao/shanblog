@@ -10,15 +10,10 @@ theme = "PaperMod"
     name = "Privacy Policy"
     url = "/privacy-policy/"
     weight = 10
-  [[menu.main]]
-    identifier = "books"
-    name = "Books"
-    url = "/books/"
-    weight = 2
 
 [params.homeInfoParams]
     Title = "Welcome to Shan's Blog"
-    Content = "Welcome to my blog. I'm Shan Xiao, a handmade programmer. Here, I write about technology, programming, open source, and anything else that comes to mind. Let's learn and grow together. If you're interested, here are some of my side projects : [SSM](https://ssm.micostupid.com), [Kids Story](https://kids-story-omega.vercel.app), [Resume Manager](https://resumemanager.pages.dev/), [Nathaniel Pomodoro](https://nathaniel-pomodoro.vercel.app/)"
+    Content = "Welcome to my blog. I'm Shan Xiao, a handmade programmer. Here, I write about technology, programming, open source, and anything else that comes to mind. Let's learn and grow together. If you're interested, here are some of my side projects : [Thought Manager](https://thought-manager.vercel.app), [SSM](https://ssm.micostupid.com), [Kids Story](https://kids-story-omega.vercel.app), [Resume Manager](https://resumemanager.pages.dev/)"
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/moloxiao"

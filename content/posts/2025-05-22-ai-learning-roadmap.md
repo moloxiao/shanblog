@@ -13,6 +13,9 @@ description = "In my recent side project, I’ve had many opportunities to lever
 - **Neural networks basics**: perceptron → deep feed-forward → CNNs / RNNs  
 - **Introduction to NLP & Transformer**: attention mechanism, encoder–decoder architectures  
 
+To grasp the basic concepts in about two hours, you can choose [Understanding LLMs from Scratch Using Middle School Math](https://towardsdatascience.com/understanding-llms-from-scratch-using-middle-school-math-e602d27ec876/). If you have more time, you might explore 3Blue1Brown’s series on [neural networks](https://www.3blue1brown.com/topics/neural-networks).  
+
+
 ## 2. Prompt & Engineering Practices
 - **Crafting effective prompts** for large language models  
 - **Data preprocessing & feature engineering**: tokenization, normalization, embeddings  

@@ -3,8 +3,9 @@ title = 'What Can Kids Do in the Future?'
 date = 2025-06-05T20:16:04+13:00
 draft = false
 tags = ["Education"]
-description = "Lately, I've been working on adding goal-setting features to Thought Manager. While discussing how to set goals with my child,  I started thinking — not just as a developer, but as a parent — about what it means to be a survivor in the world that's coming."
+description = "Lately, I've been working on adding goal-setting features to Thought Manager, my side project. While discussing how to set goals with my child,  I started thinking — not just as a developer, but as a parent — about what it means to be a survivor in the world that's coming."
 +++
+I believe the same question applies to myself: how can I become a survivor in the world of the future?  
 
 ## 1. Core Value: Create Value
 
@@ -55,4 +56,6 @@ Personally, I think the people who will create the most value in China in the fu
 
 Whether it’s skilled **nursing**, **haircutting**, or technical work like **electricians**, **plumbers**, or **mechanics** — I believe these roles will be valuable and in high demand.
 
-For ordinary people, combining professional skills with standardized SOPs is a powerful way to create value. And if you can add a touch of high-tech, you’ll be at the forefront of the wave. Good night.
+For ordinary people, combining professional skills with standardized SOPs is a powerful way to create value. And if you can add a touch of high-tech, you’ll be at the forefront of the wave. 
+
+If you want experience new goal feature, visit : [Thought Manager](https://thought-manager.vercel.app). Good night.

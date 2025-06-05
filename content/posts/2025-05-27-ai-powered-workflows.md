@@ -13,7 +13,7 @@ description = "This outline summarizes how AI-powered workflow platforms enhance
 - Knowledge-driven outputs with continuous learning loops  
 - Scalable plugin ecosystem for third-party integrations  
 
-真正的工具只是自然语言的转换接口
+**The real tool is simply an interface for converting natural language**.
 
 ### 2. Key Application Technologies
 - Natural Language Understanding & Dialogue Management  

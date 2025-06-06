@@ -1,10 +1,10 @@
-
----
-title: "Cloudflare Tunnel on Windows"
-date: 2025-03-28T14:20:52+12:00
-tags: ["cloudflare", "tunnel", "windows", "localhost", "nextjs"]
-description: "A step-by-step guide to exposing your local development server to the internet using Cloudflare Tunnel on Windows."
----
++++
+title = "Cloudflare Tunnel on Windows"
+date = 2025-03-28T14:20:52+12:00
+draft = true
+tags = ["cloudflare", "tunnel", "windows", "localhost", "nextjs"]
+description = "A step-by-step guide to exposing your local development server to the internet using Cloudflare Tunnel on Windows."
++++
 
 When developing locally, you often want to preview or share your application over the internet. This guide walks through how to use **Cloudflare Tunnel** to expose your local server (like a Next.js project running on `localhost:3000`) using a secure custom subdomain.
 

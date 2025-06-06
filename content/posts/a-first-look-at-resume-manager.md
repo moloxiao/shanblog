@@ -1,7 +1,7 @@
 +++
 title = "A First Look At Resume Manager"
 date = 2024-07-23T11:49:42+12:00
-draft = false
+draft = true
 tags = ["SaaS", "ResumeManager"]
 +++
 

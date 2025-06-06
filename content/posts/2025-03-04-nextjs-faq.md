@@ -47,3 +47,27 @@ Example: Navbar accesses user, login, and logout functions via useAuth().
 ### 1 Next.js Link Prefetching Behavior
 
 Next.js Link component automatically prefetches page data when links enter the viewport in production, but this feature is disabled in development mode. This can lead to unexpected 404 errors in production if the linked pages don't exist - a common issue that can be resolved by adding prefetch={false} to disable this behavior.
+
+
+## How to Avoid the “Stuck on Redirecting” Issue After Login in Next.js
+
+In Next.js (especially when deployed on Vercel with SSR), you may encounter a problem where, after a successful login, the page displays “Redirecting...” but never actually navigates to your dashboard. This happens because `router.push("/dashboard")` only updates the client-side route—**it does not trigger a full page reload, so cookies or JWT tokens set by your login API may not be immediately available to your authentication context or SSR logic.** As a result, your app thinks you are still not logged in, and you get stuck on the “Redirecting” screen.
+
+**Best Practice:**  
+After a successful login, use `window.location.href` for navigation instead of `router.push`. This forces a full page reload, ensuring that authentication cookies or tokens are correctly read by both the browser and your app’s authentication provider.
+
+### Example (TypeScript)
+
+```typescript
+async function onSubmit(values: LoginFormValues) {
+  setLoginState(LoginState.SUBMITTING);
+  const loginResult = await login(values.email, values.password);
+  if (loginResult) {
+    setLoginState(LoginState.SUCCESS);
+    // This reloads the page, syncing cookies/tokens for auth
+    window.location.href = "/dashboard";
+    return;
+  } else {
+    setLoginState(LoginState.ERROR);
+  }
+}

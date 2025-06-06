@@ -1,7 +1,7 @@
 +++
 title = 'Building a Website With Laravel and Nextjs Part 2 : Nextjs'
 date = 2025-03-04T10:09:44+13:00
-draft = false
+draft = true
 tags = ["Laravel", "PHP", "NEXTJS"]
 description = "."
 +++

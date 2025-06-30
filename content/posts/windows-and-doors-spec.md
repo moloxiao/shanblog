@@ -1,7 +1,7 @@
 +++
 title = 'Window and Door Spec'
 date = 2025-04-06T15:10:00+13:00
-draft = false
+draft = true
 tags = ["Joinery"] 
 description = ""
 +++

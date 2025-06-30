@@ -1,7 +1,7 @@
 +++
 title = 'How I Prepared for the PTE Test'
 date = 2024-11-07T15:10:00+13:00
-draft = false
+draft = true
 tags = ["PTE"]
 description = "A personal guide to preparing for the PTE Test in 2024, with strategies and lessons learned along the way."
 +++

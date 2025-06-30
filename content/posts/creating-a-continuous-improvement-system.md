@@ -2,7 +2,7 @@
 title = 'Creating a Continuous Improvement System'
 date = 2024-08-20T15:40:20+12:00
 draft = false
-tags = ["SystemThinking", "ResumeManager"]
+tags = ["SystemThinking", "Goal"]
 +++
 
 When we want to accomplish something or achieve a goal, sometimes we succeed, and sometimes we face challenges. Can we find a method that makes it easier to succeed? My answer is PDCA(plan–do–check–adjust).    

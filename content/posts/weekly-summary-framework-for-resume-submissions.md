@@ -1,7 +1,7 @@
 +++
 title = 'Weekly Summary Framework for Resume Submissions'
 date = 2024-09-07T21:30:07+12:00
-draft = false
+draft = true
 tags = ["Job", "ResumeManager"]
 description = "Sometimes it takes a long time to find a job, and you might feel discouraged, but the most important thing is to keep going. A weekly summary can help you stay on track and not give up. This is the method I used."
 +++

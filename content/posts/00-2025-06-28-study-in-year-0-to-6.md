@@ -1,9 +1,9 @@
 +++
 title = 'Study in year 0 to 13'
 date = 2025-06-28T20:16:04+13:00
-draft = false
+draft = true
 tags = ["Education"]
-description = ""
+description = " "
 +++
 
 ## 4-Level Framework of the Science-of-Learning Principles

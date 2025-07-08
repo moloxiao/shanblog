@@ -50,8 +50,7 @@
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
 {{- end }}
-<div class="gcse-search"></div>
-<br/>
+
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 

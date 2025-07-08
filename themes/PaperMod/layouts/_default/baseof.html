@@ -1,5 +1,5 @@
-{{- if lt hugo.Version "0.112.4" }}
-{{- errorf "=> hugo v0.112.4 or greater is required for hugo-PaperMod to build " }}
+{{- if lt hugo.Version "0.146.0" }}
+{{- errorf "=> hugo v0.146.0 or greater is required for hugo-PaperMod to build " }}
 {{- end -}}
 
 <!DOCTYPE html>
@@ -7,23 +7,6 @@
 
 <head>
     {{- partial "head.html" . }}
-    {{ if .Site.Params.google_analytics }}
-    <!-- config google analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.google_analytics }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ .Site.Params.google_analytics }}');
-    </script>
-    <meta name="msvalidate.01" content="BBB5FFC92C2A6DF180C19C5823EC3E08" />
-    {{ end }}
-    <!-- config google adsense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8639536784870126"
-     crossorigin="anonymous"></script>
-     <script async src="https://cse.google.com/cse.js?cx=f2f2dcda81a0143d0">
-    </script>
-     
 </head>
 
 <body class="
@@ -36,7 +19,6 @@
 " id="top">
     {{- partialCached "header.html" . .Page -}}
     <main class="main">
-        
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}

@@ -11,6 +11,9 @@ theme = "PaperMod"
     url = "/privacy-policy/"
     weight = 10
 
+[params]
+  defaultTheme = "dark"
+  
 [params.homeInfoParams]
     Title = "Welcome to Shan's Blog"
     Content = "Welcome to my blog. I'm Shan Xiao, a handmade programmer. Here, I write about technology, programming, open source, and anything else that comes to mind. Let's learn and grow together. If you're interested, here are some of my side projects : [Thought Manager](https://thought-manager.vercel.app), [SSM](https://ssm.micostupid.com), [Kids Story](https://kids-story-omega.vercel.app), [Resume Manager](https://resumemanager.pages.dev/)"
@@ -20,6 +23,8 @@ theme = "PaperMod"
     [[params.socialIcons]]
         name = "twitter"
         url = "https://x.com/shanxiao_sx"
+
+
 
 [outputs]
   home = ["HTML", "RSS", "SITEMAP"]

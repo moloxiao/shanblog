@@ -23,6 +23,7 @@ theme = "PaperMod"
 
 
 [params]
+  defaultTheme = "dark"
   google_analytics = "G-NXF2YQT8WF"
 
 [outputs]

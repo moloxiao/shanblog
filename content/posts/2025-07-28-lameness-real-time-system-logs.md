@@ -5,6 +5,7 @@ draft = false
 tags = ["Lameness", "CV"]
 description = ""
 +++
+> last update : 2025-07-31
 This is my side project, and I'm using it to document the logs during the prototyping phase. I'm trying to build a simple and low-cost camera-based system to help automate the detection of lameness in cows. I'm trying to answer these questions :   
 1. Using current open-source methods, what level of accuracy can be achieved for specific problem detection?  
 2. What are the typical optimization strategies, and what is the ROI for each?
@@ -25,15 +26,20 @@ Our goal is :
 * Annotation error < 5 pixels;
 * YOLO Pose mAP ≥ 70% 
 
-[Q1 : How is the 70% mAP target determined?](#q1--how-is-the-70-map-target-determined), [Q2:What is the potential for further improvement in model accuracy? ](#q2--what-is-the-potential-for-further-improvement-in-model-accuracy), [Q3:What are the real barriers to commercialization](#q3--what-are-the-real-barriers-to-commercialization)
+tips :  
+* [Q1 : How is the 70% mAP target determined?](#q1--how-is-the-70-map-target-determined)
+* [Q2 : What is the potential for further improvement in model accuracy? ](#q2--what-is-the-potential-for-further-improvement-in-model-accuracy)
+* [Q3 : What are the real barriers to commercialization](#q3--what-are-the-real-barriers-to-commercialization)
+* [DLC to yolo](/posts/2025-07-29-dlc-to-yolo/)
 
 logs :   
 | Seq |Date | Do | Cost | Explain |
-| -| ---- |---- | --| ---- |
-| 1| 07-28 | 2 weeks plan | 2 hours| |
-| 2|   | DLC training data  |  | |
-| 3|   | change to yolo pose format  |  | yolo pose 11|
-| 3|   | yolo training  |  | yolo pose 11 |
+| - | ---- |---- | --| ---- |
+| 1 | 07-28 | 2 weeks plan | 2 hours| |
+| 2 |  07-29 | DLC training data  |  | use UI tools tag |
+| 3 |  07-29 | change to yolo pose format  |  | yolo pose 11|
+| 4 |  07-29 | yolo training  |  | yolo pose 11 |
+| 5 |  07-31 |  format DLC->yolo script |  |  |
 
 # FAQ
 
@@ -85,3 +91,6 @@ To succeed as a startup, focus not on reinventing the algorithm, but on:
 
 
 ## TODO : Q4 : some basic information about yolo
+
+
+[YOLOv11: An Overview of the Key Architectural Enhancements](https://arxiv.org/html/2410.17725v1)

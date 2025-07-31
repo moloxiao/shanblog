@@ -13,7 +13,7 @@ theme = "PaperMod"
 
 [params.homeInfoParams]
     Title = "Welcome to Shan's Blog"
-    Content = "Welcome to my blog. I'm Shan Xiao, a programmer. Here is my open notes, I write about technology, programming, open source, and anything else that comes to mind. Let's learn and grow together. If you're interested, here are some of my side projects : [Thought Manager](https://thought-manager.vercel.app), [SSM](https://ssm.micostupid.com), [Kids Story](https://kids-story-omega.vercel.app), [Resume Manager](https://resumemanager.pages.dev)"
+    Content = "Welcome to my blog. I'm Shan Xiao, a programmer. Here is my open notes, I write about technology, programming, open source, and anything else that comes to mind. Let's learn and grow together. If you're interested, here are some of my side projects : [Thought Manager](https://thought-manager.vercel.app), [SSM](https://ssm.micostupid.com) ..."
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/moloxiao"
@@ -23,7 +23,6 @@ theme = "PaperMod"
 
 
 [params]
-  defaultTheme = "dark"
   google_analytics = "G-NXF2YQT8WF"
 
 [outputs]

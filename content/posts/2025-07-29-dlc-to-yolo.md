@@ -300,3 +300,6 @@ if __name__ == "__main__":
     main()
 
 ```
+
+# References
+* [Pose Estimation Datasets Overview](https://docs.ultralytics.com/datasets/pose/)

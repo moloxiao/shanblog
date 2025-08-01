@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 构建静态文件
-hugo
+hugo --environment production
 
 # 进入生成的文件夹
 cd public

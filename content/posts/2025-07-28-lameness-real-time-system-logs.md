@@ -30,7 +30,6 @@ tips :
 * [Q1 : How is the 70% mAP target determined?](#q1--how-is-the-70-map-target-determined)
 * [Q2 : What is the potential for further improvement in model accuracy? ](#q2--what-is-the-potential-for-further-improvement-in-model-accuracy)
 * [Q3 : What are the real barriers to commercialization](#q3--what-are-the-real-barriers-to-commercialization)
-* [DLC to yolo](/posts/2025-07-29-dlc-to-yolo/)
 
 logs :   
 | Seq |Date | Do | Cost | Explain |
@@ -39,7 +38,7 @@ logs :
 | 2 |  07-29 | DLC training data  |  | use UI tools tag |
 | 3 |  07-29 | change to yolo pose format  |  | yolo pose 11|
 | 4 |  07-29 | yolo training  |  | yolo pose 11 |
-| 5 |  07-31 |  format DLC->yolo script |  |  |
+| 5 |  07-31 |  format DLC->yolo script |  | [DLC to yolo](/posts/2025-07-29-dlc-to-yolo/) |
 
 # FAQ
 

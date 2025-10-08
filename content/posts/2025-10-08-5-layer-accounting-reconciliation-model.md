@@ -1,4 +1,11 @@
-5-Layer Accounting Reconciliation Model
++++
+title = '5-Layer Accounting Reconciliation Model'
+date = 2025-10-08T08:00:00+12:00
+draft = false
+tags = ["Accounting"]
+description = ""
++++
+
 
 # Universal 5-Layer Reconciliation Model (Concept & Purpose)
 
